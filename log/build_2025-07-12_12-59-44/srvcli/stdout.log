@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/srvcli/srvcli.egg-info/PKG-INFO
+writing dependency_links to ../../build/srvcli/srvcli.egg-info/dependency_links.txt
+writing entry points to ../../build/srvcli/srvcli.egg-info/entry_points.txt
+writing requirements to ../../build/srvcli/srvcli.egg-info/requires.txt
+writing top-level names to ../../build/srvcli/srvcli.egg-info/top_level.txt
+reading manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'
+running build
+running build_py
+copying srvcli/client_agent_2.py -> /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli
+running install
+running install_lib
+copying /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli/client_agent_2.py -> /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli
+byte-compiling /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli/client_agent_2.py to client_agent_2.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/srvcli/srvcli.egg-info to /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli-0.0.0-py3.12.egg-info
+running install_scripts
+Installing client script to /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/srvcli
+Installing service script to /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/srvcli
+writing list of installed files to '/home/shaalekh/Desktop/ros2_ws/build/srvcli/install.log'

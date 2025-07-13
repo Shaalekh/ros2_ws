@@ -1,0 +1,9 @@
+{
+  "package_name": "customs",
+  "non_idl_tuples": [
+    "/home/shaalekh/Desktop/ros2_ws/src/customs:msg/Num.msg",
+    "/home/shaalekh/Desktop/ros2_ws/src/customs:msg/Sphere.msg",
+    "/home/shaalekh/Desktop/ros2_ws/src/customs:msg/AddressBook.msg",
+    "/home/shaalekh/Desktop/ros2_ws/src/customs:srv/AddThreeInts.srv"
+  ]
+}

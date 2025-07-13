@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-25c10d165f3e191a71cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "customs__py",
+					"jsonFile" : "directory-customs__py-a46d9d976fea2dc03c57.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/shaalekh/Desktop/ros2_ws/build/customs/customs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "customs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_customs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_customs_egg-5ef3b37d59034e03d28b.json",
+					"name" : "ament_cmake_python_build_customs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_customs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_customs-0893a6609c5e4ac408cf.json",
+					"name" : "ament_cmake_python_copy_customs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs-9531a9d54cc8bfcbfee5.json",
+					"name" : "customs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs__cpp-cd5a479b61d35aed6115.json",
+					"name" : "customs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "customs__py::@541ece2809f051002fe8",
+					"jsonFile" : "target-customs__py-1afc13ed435131e4cedc.json",
+					"name" : "customs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs__rosidl_generator_c-3f774f8f911e7bb87697.json",
+					"name" : "customs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs__rosidl_generator_py-21d1414693f3218b8736.json",
+					"name" : "customs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs__rosidl_generator_type_description-d05f249141e2b0abb4f1.json",
+					"name" : "customs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs__rosidl_typesupport_c-50a1d588df03e20b46ae.json",
+					"name" : "customs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs__rosidl_typesupport_cpp-f1809093d58f0a10ed74.json",
+					"name" : "customs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs__rosidl_typesupport_fastrtps_c-350d3ee09b7c97c00da2.json",
+					"name" : "customs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs__rosidl_typesupport_fastrtps_cpp-9ac17be9b34bff5f8b73.json",
+					"name" : "customs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs__rosidl_typesupport_introspection_c-61568c6a207d9c2eb3df.json",
+					"name" : "customs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs__rosidl_typesupport_introspection_cpp-db46250b957101418197.json",
+					"name" : "customs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs_s__rosidl_typesupport_c-443c3927f817bfeff050.json",
+					"name" : "customs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs_s__rosidl_typesupport_fastrtps_c-470390e55cc632af2e4b.json",
+					"name" : "customs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs_s__rosidl_typesupport_introspection_c-00eaf7838988b1335203.json",
+					"name" : "customs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs_uninstall-0c90da9f7d11cc5d40a5.json",
+					"name" : "customs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6c97f04f0fea8d536352.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/shaalekh/Desktop/ros2_ws/build/customs",
+		"source" : "/home/shaalekh/Desktop/ros2_ws/src/customs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

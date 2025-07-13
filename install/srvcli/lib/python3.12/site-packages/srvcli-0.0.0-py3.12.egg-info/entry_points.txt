@@ -1,0 +1,3 @@
+[console_scripts]
+client = srvcli.client_agent:main
+service = srvcli.service_agent:main

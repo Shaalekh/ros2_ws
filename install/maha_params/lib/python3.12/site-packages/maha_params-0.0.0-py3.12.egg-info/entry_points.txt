@@ -1,0 +1,4 @@
+[console_scripts]
+my_parameter = maha_params.py_parameter:main
+param_node = maha_params.param_node:main
+param_timer_node = maha_params.param_timer_node:main

@@ -1,0 +1,21 @@
+[1.764s] Invoking command in '/home/shaalekh/Desktop/ros2_ws/build/my_pack': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shaalekh/Desktop/ros2_ws/build/my_pack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaalekh/Desktop/ros2_ws/install/my_pack/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shaalekh/Desktop/ros2_ws/build/my_pack/build --no-deps symlink_data --force
+[2.219s] running develop
+[2.472s] running egg_info
+[2.496s] writing my_pack.egg-info/PKG-INFO
+[2.496s] writing dependency_links to my_pack.egg-info/dependency_links.txt
+[2.497s] writing entry points to my_pack.egg-info/entry_points.txt
+[2.497s] writing requirements to my_pack.egg-info/requires.txt
+[2.498s] writing top-level names to my_pack.egg-info/top_level.txt
+[2.553s] reading manifest file 'my_pack.egg-info/SOURCES.txt'
+[2.554s] writing manifest file 'my_pack.egg-info/SOURCES.txt'
+[2.583s] running build_ext
+[2.584s] Creating /home/shaalekh/Desktop/ros2_ws/install/my_pack/lib/python3.12/site-packages/my-pack.egg-link (link to .)
+[2.586s] Installing hello_world script to /home/shaalekh/Desktop/ros2_ws/install/my_pack/lib/my_pack
+[2.586s] Installing publisher script to /home/shaalekh/Desktop/ros2_ws/install/my_pack/lib/my_pack
+[2.586s] Installing subscriber script to /home/shaalekh/Desktop/ros2_ws/install/my_pack/lib/my_pack
+[2.587s] 
+[2.587s] Installed /home/shaalekh/Desktop/ros2_ws/build/my_pack
+[2.587s] running symlink_data
+[2.588s] symbolically linking /home/shaalekh/Desktop/ros2_ws/build/my_pack/resource/my_pack -> /home/shaalekh/Desktop/ros2_ws/install/my_pack/share/ament_index/resource_index/packages
+[2.588s] symbolically linking /home/shaalekh/Desktop/ros2_ws/build/my_pack/package.xml -> /home/shaalekh/Desktop/ros2_ws/install/my_pack/share/my_pack
+[2.757s] Invoked command in '/home/shaalekh/Desktop/ros2_ws/build/my_pack' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shaalekh/Desktop/ros2_ws/build/my_pack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaalekh/Desktop/ros2_ws/install/my_pack/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shaalekh/Desktop/ros2_ws/build/my_pack/build --no-deps symlink_data --force

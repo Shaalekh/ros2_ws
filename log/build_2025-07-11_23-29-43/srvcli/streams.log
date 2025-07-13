@@ -1,0 +1,42 @@
+[1.613s] Invoking command in '/home/shaalekh/Desktop/ros2_ws/src/srvcli': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shaalekh/Desktop/ros2_ws/build/srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/srvcli build --build-base /home/shaalekh/Desktop/ros2_ws/build/srvcli/build install --record /home/shaalekh/Desktop/ros2_ws/build/srvcli/install.log --single-version-externally-managed install_data
+[1.983s] running egg_info
+[1.986s] creating ../../build/srvcli/srvcli.egg-info
+[2.011s] writing ../../build/srvcli/srvcli.egg-info/PKG-INFO
+[2.011s] writing dependency_links to ../../build/srvcli/srvcli.egg-info/dependency_links.txt
+[2.011s] writing entry points to ../../build/srvcli/srvcli.egg-info/entry_points.txt
+[2.011s] writing requirements to ../../build/srvcli/srvcli.egg-info/requires.txt
+[2.012s] writing top-level names to ../../build/srvcli/srvcli.egg-info/top_level.txt
+[2.012s] writing manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'
+[2.061s] reading manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'
+[2.061s] adding license file 'LICENSE'
+[2.062s] writing manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'
+[2.062s] running build
+[2.063s] running build_py
+[2.063s] creating /home/shaalekh/Desktop/ros2_ws/build/srvcli/build
+[2.063s] creating /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib
+[2.063s] creating /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli
+[2.063s] copying srvcli/service_agent.py -> /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli
+[2.063s] copying srvcli/__init__.py -> /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli
+[2.063s] copying srvcli/client_agent.py -> /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli
+[2.064s] running install
+[2.073s] running install_lib
+[2.101s] creating /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli
+[2.101s] copying /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli/service_agent.py -> /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli
+[2.101s] copying /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli/__init__.py -> /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli
+[2.101s] copying /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli/client_agent.py -> /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli
+[2.102s] byte-compiling /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli/service_agent.py to service_agent.cpython-312.pyc
+[2.103s] byte-compiling /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli/__init__.py to __init__.cpython-312.pyc
+[2.103s] byte-compiling /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli/client_agent.py to client_agent.cpython-312.pyc
+[2.104s] running install_data
+[2.104s] creating /home/shaalekh/Desktop/ros2_ws/install/srvcli/share/ament_index
+[2.104s] creating /home/shaalekh/Desktop/ros2_ws/install/srvcli/share/ament_index/resource_index
+[2.104s] creating /home/shaalekh/Desktop/ros2_ws/install/srvcli/share/ament_index/resource_index/packages
+[2.104s] copying resource/srvcli -> /home/shaalekh/Desktop/ros2_ws/install/srvcli/share/ament_index/resource_index/packages
+[2.104s] copying package.xml -> /home/shaalekh/Desktop/ros2_ws/install/srvcli/share/srvcli
+[2.105s] running install_egg_info
+[2.131s] Copying ../../build/srvcli/srvcli.egg-info to /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli-0.0.0-py3.12.egg-info
+[2.132s] running install_scripts
+[2.320s] Installing client script to /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/srvcli
+[2.320s] Installing service script to /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/srvcli
+[2.320s] writing list of installed files to '/home/shaalekh/Desktop/ros2_ws/build/srvcli/install.log'
+[2.437s] Invoked command in '/home/shaalekh/Desktop/ros2_ws/src/srvcli' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shaalekh/Desktop/ros2_ws/build/srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/srvcli build --build-base /home/shaalekh/Desktop/ros2_ws/build/srvcli/build install --record /home/shaalekh/Desktop/ros2_ws/build/srvcli/install.log --single-version-externally-managed install_data

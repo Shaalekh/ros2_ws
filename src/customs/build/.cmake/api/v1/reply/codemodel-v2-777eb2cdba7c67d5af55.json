@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-caae31eaf7860ae632d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "customs__py",
+					"jsonFile" : "directory-customs__py-Debug-82f7d33d6a01281d4f06.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "build/customs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "customs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_customs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_customs_egg-Debug-90b259e3c8dd3533766c.json",
+					"name" : "ament_cmake_python_build_customs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_customs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_customs-Debug-e5b26ac695d5d2685ed9.json",
+					"name" : "ament_cmake_python_copy_customs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs-Debug-50ae66f226a12e438ab7.json",
+					"name" : "customs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs__cpp-Debug-619d1428f48d738dc9ba.json",
+					"name" : "customs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "customs__py::@541ece2809f051002fe8",
+					"jsonFile" : "target-customs__py-Debug-55250c476ea9a6ab8026.json",
+					"name" : "customs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs__rosidl_generator_c-Debug-aef40b074b8531113968.json",
+					"name" : "customs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs__rosidl_generator_py-Debug-f7c04dded750e0ce6293.json",
+					"name" : "customs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs__rosidl_generator_type_description-Debug-31ac57cf6a6fd1983734.json",
+					"name" : "customs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs__rosidl_typesupport_c-Debug-d370ae65dfaff30a640b.json",
+					"name" : "customs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs__rosidl_typesupport_cpp-Debug-31a330b735b321eedddc.json",
+					"name" : "customs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs__rosidl_typesupport_fastrtps_c-Debug-effb5e2f46811d99a413.json",
+					"name" : "customs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs__rosidl_typesupport_fastrtps_cpp-Debug-4bc4a03cd8c88be7e3fb.json",
+					"name" : "customs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs__rosidl_typesupport_introspection_c-Debug-8febcc492579a6336437.json",
+					"name" : "customs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs__rosidl_typesupport_introspection_cpp-Debug-78164767360c1a163b8b.json",
+					"name" : "customs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs_s__rosidl_typesupport_c-Debug-d24be7ddc313cdad2430.json",
+					"name" : "customs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs_s__rosidl_typesupport_fastrtps_c-Debug-919b98eb59e9e597c6b5.json",
+					"name" : "customs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs_s__rosidl_typesupport_introspection_c-Debug-53a058c63acccb2163d5.json",
+					"name" : "customs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "customs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-customs_uninstall-Debug-0391d1473aef340ce615.json",
+					"name" : "customs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-6c97f04f0fea8d536352.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/shaalekh/Desktop/ros2_ws/src/customs/build",
+		"source" : "/home/shaalekh/Desktop/ros2_ws/src/customs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

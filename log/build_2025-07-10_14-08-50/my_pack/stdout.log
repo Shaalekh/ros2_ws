@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/my_pack/my_pack.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_pack/my_pack.egg-info/dependency_links.txt
+writing entry points to ../../build/my_pack/my_pack.egg-info/entry_points.txt
+writing requirements to ../../build/my_pack/my_pack.egg-info/requires.txt
+writing top-level names to ../../build/my_pack/my_pack.egg-info/top_level.txt
+reading manifest file '../../build/my_pack/my_pack.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/my_pack/my_pack.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_pack/subscriber.py -> /home/shaalekh/Desktop/ros2_ws/build/my_pack/build/lib/my_pack
+running install
+running install_lib
+copying /home/shaalekh/Desktop/ros2_ws/build/my_pack/build/lib/my_pack/subscriber.py -> /home/shaalekh/Desktop/ros2_ws/install/my_pack/lib/python3.12/site-packages/my_pack
+byte-compiling /home/shaalekh/Desktop/ros2_ws/install/my_pack/lib/python3.12/site-packages/my_pack/subscriber.py to subscriber.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/shaalekh/Desktop/ros2_ws/install/my_pack/lib/python3.12/site-packages/my_pack-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/my_pack/my_pack.egg-info to /home/shaalekh/Desktop/ros2_ws/install/my_pack/lib/python3.12/site-packages/my_pack-0.0.0-py3.12.egg-info
+running install_scripts
+Installing hello_world script to /home/shaalekh/Desktop/ros2_ws/install/my_pack/lib/my_pack
+Installing publisher script to /home/shaalekh/Desktop/ros2_ws/install/my_pack/lib/my_pack
+Installing subscriber script to /home/shaalekh/Desktop/ros2_ws/install/my_pack/lib/my_pack
+writing list of installed files to '/home/shaalekh/Desktop/ros2_ws/build/my_pack/install.log'

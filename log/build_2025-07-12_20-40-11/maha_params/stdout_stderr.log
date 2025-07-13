@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/maha_params/maha_params.egg-info/PKG-INFO
+writing dependency_links to ../../build/maha_params/maha_params.egg-info/dependency_links.txt
+writing entry points to ../../build/maha_params/maha_params.egg-info/entry_points.txt
+writing requirements to ../../build/maha_params/maha_params.egg-info/requires.txt
+writing top-level names to ../../build/maha_params/maha_params.egg-info/top_level.txt
+reading manifest file '../../build/maha_params/maha_params.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/maha_params/maha_params.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages/maha_params-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/maha_params/maha_params.egg-info to /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages/maha_params-0.0.0-py3.12.egg-info
+running install_scripts
+Installing my_parameter script to /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/maha_params
+Installing param_node script to /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/maha_params
+Installing param_timer_node script to /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/maha_params
+writing list of installed files to '/home/shaalekh/Desktop/ros2_ws/build/maha_params/install.log'

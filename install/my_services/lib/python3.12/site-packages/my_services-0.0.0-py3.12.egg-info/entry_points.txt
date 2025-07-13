@@ -1,0 +1,3 @@
+[console_scripts]
+client = my_services.client_member:main
+service = my_services.service_member:main

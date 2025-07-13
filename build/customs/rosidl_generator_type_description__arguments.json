@@ -1,0 +1,16 @@
+{
+  "package_name": "customs",
+  "output_dir": "/home/shaalekh/Desktop/ros2_ws/build/customs/rosidl_generator_type_description/customs",
+  "idl_tuples": [
+    "/home/shaalekh/Desktop/ros2_ws/build/customs/rosidl_adapter/customs:msg/Num.idl",
+    "/home/shaalekh/Desktop/ros2_ws/build/customs/rosidl_adapter/customs:msg/Sphere.idl",
+    "/home/shaalekh/Desktop/ros2_ws/build/customs/rosidl_adapter/customs:msg/AddressBook.idl",
+    "/home/shaalekh/Desktop/ros2_ws/build/customs/rosidl_adapter/customs:srv/AddThreeInts.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

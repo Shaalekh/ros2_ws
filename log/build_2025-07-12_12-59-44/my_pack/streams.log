@@ -1,0 +1,24 @@
+[2.033s] Invoking command in '/home/shaalekh/Desktop/ros2_ws/src/my_pack': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shaalekh/Desktop/ros2_ws/build/my_pack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaalekh/Desktop/ros2_ws/install/my_pack/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_pack build --build-base /home/shaalekh/Desktop/ros2_ws/build/my_pack/build install --record /home/shaalekh/Desktop/ros2_ws/build/my_pack/install.log --single-version-externally-managed install_data
+[2.409s] running egg_info
+[2.433s] writing ../../build/my_pack/my_pack.egg-info/PKG-INFO
+[2.434s] writing dependency_links to ../../build/my_pack/my_pack.egg-info/dependency_links.txt
+[2.434s] writing entry points to ../../build/my_pack/my_pack.egg-info/entry_points.txt
+[2.435s] writing requirements to ../../build/my_pack/my_pack.egg-info/requires.txt
+[2.435s] writing top-level names to ../../build/my_pack/my_pack.egg-info/top_level.txt
+[2.484s] reading manifest file '../../build/my_pack/my_pack.egg-info/SOURCES.txt'
+[2.485s] adding license file 'LICENSE'
+[2.486s] writing manifest file '../../build/my_pack/my_pack.egg-info/SOURCES.txt'
+[2.486s] running build
+[2.486s] running build_py
+[2.488s] running install
+[2.500s] running install_lib
+[2.526s] running install_data
+[2.527s] running install_egg_info
+[2.553s] removing '/home/shaalekh/Desktop/ros2_ws/install/my_pack/lib/python3.12/site-packages/my_pack-0.0.0-py3.12.egg-info' (and everything under it)
+[2.554s] Copying ../../build/my_pack/my_pack.egg-info to /home/shaalekh/Desktop/ros2_ws/install/my_pack/lib/python3.12/site-packages/my_pack-0.0.0-py3.12.egg-info
+[2.555s] running install_scripts
+[2.743s] Installing hello_world script to /home/shaalekh/Desktop/ros2_ws/install/my_pack/lib/my_pack
+[2.744s] Installing publisher script to /home/shaalekh/Desktop/ros2_ws/install/my_pack/lib/my_pack
+[2.745s] Installing subscriber script to /home/shaalekh/Desktop/ros2_ws/install/my_pack/lib/my_pack
+[2.746s] writing list of installed files to '/home/shaalekh/Desktop/ros2_ws/build/my_pack/install.log'
+[2.872s] Invoked command in '/home/shaalekh/Desktop/ros2_ws/src/my_pack' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shaalekh/Desktop/ros2_ws/build/my_pack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaalekh/Desktop/ros2_ws/install/my_pack/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_pack build --build-base /home/shaalekh/Desktop/ros2_ws/build/my_pack/build install --record /home/shaalekh/Desktop/ros2_ws/build/my_pack/install.log --single-version-externally-managed install_data
