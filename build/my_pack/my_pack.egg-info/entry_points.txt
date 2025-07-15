@@ -1,4 +1,0 @@
-[console_scripts]
-hello_world = my_pack.hello_node:main
-publisher = my_pack.publisher:main
-subscriber = my_pack.subscriber:main

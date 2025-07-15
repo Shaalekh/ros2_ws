@@ -1,1 +1,1 @@
-example_interfaces:rclpy
+custom_action_interfaces:example_interfaces:rclpy

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "customs/msg/detail/num__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "customs/msg/detail/num__type_support.h"
+#include "customs/msg/detail/num__functions.h"
 #include "customs/msg/detail/num__struct.h"
+#include "customs/msg/detail/num__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

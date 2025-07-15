@@ -1,10 +1,14 @@
+source;share/customs/hook/cmake_prefix_path.ps1
 source;share/customs/hook/cmake_prefix_path.dsv
 source;share/customs/hook/cmake_prefix_path.sh
+source;share/customs/hook/ld_library_path_lib.ps1
 source;share/customs/hook/ld_library_path_lib.dsv
 source;share/customs/hook/ld_library_path_lib.sh
+source;share/customs/hook/pythonpath.ps1
 source;share/customs/hook/pythonpath.dsv
 source;share/customs/hook/pythonpath.sh
 source;share/customs/local_setup.bash
 source;share/customs/local_setup.dsv
+source;share/customs/local_setup.ps1
 source;share/customs/local_setup.sh
 source;share/customs/local_setup.zsh

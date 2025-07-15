@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "rosidl_typesupport_interface/macros.h"
+#include "customs/msg/detail/sphere__struct.h"
 #include "customs/msg/detail/sphere__type_support.h"
 #include "customs/msg/detail/sphere__functions.h"
-#include "customs/msg/detail/sphere__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"
