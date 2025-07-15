@@ -1,0 +1,46 @@
+[2.401s] Invoking command in '/home/shaalekh/Desktop/ros2_ws/src/maha_params': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shaalekh/Desktop/ros2_ws/build/maha_params/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maha_params build --build-base /home/shaalekh/Desktop/ros2_ws/build/maha_params/build install --record /home/shaalekh/Desktop/ros2_ws/build/maha_params/install.log --single-version-externally-managed install_data
+[3.007s] running egg_info
+[3.011s] creating ../../build/maha_params/maha_params.egg-info
+[3.040s] writing ../../build/maha_params/maha_params.egg-info/PKG-INFO
+[3.041s] writing dependency_links to ../../build/maha_params/maha_params.egg-info/dependency_links.txt
+[3.041s] writing entry points to ../../build/maha_params/maha_params.egg-info/entry_points.txt
+[3.041s] writing requirements to ../../build/maha_params/maha_params.egg-info/requires.txt
+[3.043s] writing top-level names to ../../build/maha_params/maha_params.egg-info/top_level.txt
+[3.043s] writing manifest file '../../build/maha_params/maha_params.egg-info/SOURCES.txt'
+[3.104s] reading manifest file '../../build/maha_params/maha_params.egg-info/SOURCES.txt'
+[3.104s] adding license file 'LICENSE'
+[3.106s] writing manifest file '../../build/maha_params/maha_params.egg-info/SOURCES.txt'
+[3.110s] running build
+[3.110s] running build_py
+[3.110s] creating /home/shaalekh/Desktop/ros2_ws/build/maha_params/build
+[3.110s] creating /home/shaalekh/Desktop/ros2_ws/build/maha_params/build/lib
+[3.111s] creating /home/shaalekh/Desktop/ros2_ws/build/maha_params/build/lib/maha_params
+[3.111s] copying maha_params/param_timer_node.py -> /home/shaalekh/Desktop/ros2_ws/build/maha_params/build/lib/maha_params
+[3.111s] copying maha_params/py_parameter.py -> /home/shaalekh/Desktop/ros2_ws/build/maha_params/build/lib/maha_params
+[3.111s] copying maha_params/__init__.py -> /home/shaalekh/Desktop/ros2_ws/build/maha_params/build/lib/maha_params
+[3.112s] copying maha_params/param_node.py -> /home/shaalekh/Desktop/ros2_ws/build/maha_params/build/lib/maha_params
+[3.116s] running install
+[3.131s] running install_lib
+[3.172s] creating /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages/maha_params
+[3.172s] copying /home/shaalekh/Desktop/ros2_ws/build/maha_params/build/lib/maha_params/param_timer_node.py -> /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages/maha_params
+[3.172s] copying /home/shaalekh/Desktop/ros2_ws/build/maha_params/build/lib/maha_params/py_parameter.py -> /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages/maha_params
+[3.173s] copying /home/shaalekh/Desktop/ros2_ws/build/maha_params/build/lib/maha_params/__init__.py -> /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages/maha_params
+[3.173s] copying /home/shaalekh/Desktop/ros2_ws/build/maha_params/build/lib/maha_params/param_node.py -> /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages/maha_params
+[3.174s] byte-compiling /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages/maha_params/param_timer_node.py to param_timer_node.cpython-312.pyc
+[3.175s] byte-compiling /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages/maha_params/py_parameter.py to py_parameter.cpython-312.pyc
+[3.176s] byte-compiling /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages/maha_params/__init__.py to __init__.cpython-312.pyc
+[3.176s] byte-compiling /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages/maha_params/param_node.py to param_node.cpython-312.pyc
+[3.177s] running install_data
+[3.177s] creating /home/shaalekh/Desktop/ros2_ws/install/maha_params/share/ament_index
+[3.178s] creating /home/shaalekh/Desktop/ros2_ws/install/maha_params/share/ament_index/resource_index
+[3.178s] creating /home/shaalekh/Desktop/ros2_ws/install/maha_params/share/ament_index/resource_index/packages
+[3.178s] copying resource/maha_params -> /home/shaalekh/Desktop/ros2_ws/install/maha_params/share/ament_index/resource_index/packages
+[3.179s] copying package.xml -> /home/shaalekh/Desktop/ros2_ws/install/maha_params/share/maha_params
+[3.179s] running install_egg_info
+[3.226s] Copying ../../build/maha_params/maha_params.egg-info to /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages/maha_params-0.0.0-py3.12.egg-info
+[3.228s] running install_scripts
+[3.522s] Installing my_parameter script to /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/maha_params
+[3.523s] Installing param_node script to /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/maha_params
+[3.524s] Installing param_timer_node script to /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/maha_params
+[3.527s] writing list of installed files to '/home/shaalekh/Desktop/ros2_ws/build/maha_params/install.log'
+[3.734s] Invoked command in '/home/shaalekh/Desktop/ros2_ws/src/maha_params' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shaalekh/Desktop/ros2_ws/build/maha_params/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maha_params build --build-base /home/shaalekh/Desktop/ros2_ws/build/maha_params/build install --record /home/shaalekh/Desktop/ros2_ws/build/maha_params/install.log --single-version-externally-managed install_data

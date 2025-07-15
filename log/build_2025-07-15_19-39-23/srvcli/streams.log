@@ -1,0 +1,26 @@
+[1.300s] Invoking command in '/home/shaalekh/Desktop/ros2_ws/src/srvcli': CMAKE_PREFIX_PATH=/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces:/home/shaalekh/Desktop/ros2_ws/install/customs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib:/home/shaalekh/Desktop/ros2_ws/install/customs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/shaalekh/Desktop/ros2_ws/build/srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages:/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages:/home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages:/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/srvcli build --build-base /home/shaalekh/Desktop/ros2_ws/build/srvcli/build install --record /home/shaalekh/Desktop/ros2_ws/build/srvcli/install.log --single-version-externally-managed install_data
+[1.688s] running egg_info
+[1.712s] writing ../../build/srvcli/srvcli.egg-info/PKG-INFO
+[1.712s] writing dependency_links to ../../build/srvcli/srvcli.egg-info/dependency_links.txt
+[1.713s] writing entry points to ../../build/srvcli/srvcli.egg-info/entry_points.txt
+[1.714s] writing requirements to ../../build/srvcli/srvcli.egg-info/requires.txt
+[1.714s] writing top-level names to ../../build/srvcli/srvcli.egg-info/top_level.txt
+[1.762s] reading manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'
+[1.763s] adding license file 'LICENSE'
+[1.764s] writing manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'
+[1.764s] running build
+[1.765s] running build_py
+[1.765s] copying srvcli/fibonacci_action_server.py -> /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli
+[1.766s] running install
+[1.775s] running install_lib
+[1.804s] copying /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli/fibonacci_action_server.py -> /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli
+[1.804s] byte-compiling /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli/fibonacci_action_server.py to fibonacci_action_server.cpython-312.pyc
+[1.805s] running install_data
+[1.805s] running install_egg_info
+[1.831s] removing '/home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli-0.0.0-py3.12.egg-info' (and everything under it)
+[1.832s] Copying ../../build/srvcli/srvcli.egg-info to /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli-0.0.0-py3.12.egg-info
+[1.833s] running install_scripts
+[2.013s] Installing client script to /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/srvcli
+[2.013s] Installing service script to /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/srvcli
+[2.014s] writing list of installed files to '/home/shaalekh/Desktop/ros2_ws/build/srvcli/install.log'
+[2.097s] Invoked command in '/home/shaalekh/Desktop/ros2_ws/src/srvcli' returned '0': CMAKE_PREFIX_PATH=/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces:/home/shaalekh/Desktop/ros2_ws/install/customs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib:/home/shaalekh/Desktop/ros2_ws/install/customs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/shaalekh/Desktop/ros2_ws/build/srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages:/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages:/home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages:/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/srvcli build --build-base /home/shaalekh/Desktop/ros2_ws/build/srvcli/build install --record /home/shaalekh/Desktop/ros2_ws/build/srvcli/install.log --single-version-externally-managed install_data

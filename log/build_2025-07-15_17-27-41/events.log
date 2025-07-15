@@ -1,0 +1,931 @@
+[0.000000] (-) TimerEvent: {}
+[0.000373] (custom_action_interfaces) JobQueued: {'identifier': 'custom_action_interfaces', 'dependencies': OrderedDict()}
+[0.000428] (customs) JobQueued: {'identifier': 'customs', 'dependencies': OrderedDict()}
+[0.000453] (maha_params) JobQueued: {'identifier': 'maha_params', 'dependencies': OrderedDict()}
+[0.000494] (srvcli) JobQueued: {'identifier': 'srvcli', 'dependencies': OrderedDict()}
+[0.001803] (custom_action_interfaces) JobStarted: {'identifier': 'custom_action_interfaces'}
+[0.014973] (customs) JobStarted: {'identifier': 'customs'}
+[0.019547] (maha_params) JobStarted: {'identifier': 'maha_params'}
+[0.026092] (srvcli) JobStarted: {'identifier': 'srvcli'}
+[0.038563] (custom_action_interfaces) JobProgress: {'identifier': 'custom_action_interfaces', 'progress': 'cmake'}
+[0.039233] (custom_action_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/shaalekh/Desktop/ros2_ws/src/custom_action_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces'], 'cwd': '/home/shaalekh/Desktop/ros2_ws/build/custom_action_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shaalekh', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shaalekh', 'OLDPWD': '/home/shaalekh/Desktop/ros2_ws/src/custom_action_interfaces', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2047', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shaalekh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shaalekh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/raspi5-ubuntu:@/tmp/.ICE-unix/2006,unix/raspi5-ubuntu:/tmp/.ICE-unix/2006', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b7b2a87c_507e_45f8_a2dd_39a1d0ef252b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.635T92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.361', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shaalekh/Desktop/ros2_ws/build/custom_action_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.044082] (customs) JobProgress: {'identifier': 'customs', 'progress': 'cmake'}
+[0.046461] (customs) Command: {'cmd': ['/usr/bin/cmake', '/home/shaalekh/Desktop/ros2_ws/src/customs', '-DCMAKE_INSTALL_PREFIX=/home/shaalekh/Desktop/ros2_ws/install/customs'], 'cwd': '/home/shaalekh/Desktop/ros2_ws/build/customs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shaalekh', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shaalekh', 'OLDPWD': '/home/shaalekh/Desktop/ros2_ws/src/custom_action_interfaces', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2047', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shaalekh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shaalekh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/raspi5-ubuntu:@/tmp/.ICE-unix/2006,unix/raspi5-ubuntu:/tmp/.ICE-unix/2006', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b7b2a87c_507e_45f8_a2dd_39a1d0ef252b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.635T92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.361', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shaalekh/Desktop/ros2_ws/build/customs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.100054] (-) TimerEvent: {}
+[0.200721] (-) TimerEvent: {}
+[0.301232] (-) TimerEvent: {}
+[0.402798] (-) TimerEvent: {}
+[0.503234] (-) TimerEvent: {}
+[0.576966] (custom_action_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.577447] (custom_action_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.578727] (custom_action_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.579311] (custom_action_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.579436] (customs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.579706] (customs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.579840] (customs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.582170] (customs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.589789] (custom_action_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.590160] (custom_action_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.590802] (custom_action_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.598101] (customs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.598380] (customs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.599648] (customs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.604231] (-) TimerEvent: {}
+[0.610342] (custom_action_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.620420] (customs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.704605] (-) TimerEvent: {}
+[0.805227] (-) TimerEvent: {}
+[0.853654] (custom_action_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.854520] (customs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.868382] (customs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.870046] (customs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.870343] (custom_action_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.870550] (customs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.872016] (custom_action_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.872258] (custom_action_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.873652] (customs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.876061] (custom_action_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.905281] (-) TimerEvent: {}
+[1.008806] (-) TimerEvent: {}
+[1.109319] (-) TimerEvent: {}
+[1.209896] (-) TimerEvent: {}
+[1.236747] (customs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.248939] (custom_action_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.310221] (-) TimerEvent: {}
+[1.413145] (-) TimerEvent: {}
+[1.489896] (customs) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.513253] (-) TimerEvent: {}
+[1.519652] (custom_action_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.551893] (customs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.577770] (customs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.608575] (customs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.613413] (-) TimerEvent: {}
+[1.649610] (customs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.713557] (-) TimerEvent: {}
+[1.740331] (customs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.760407] (customs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.763861] (custom_action_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.772935] (custom_action_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.813757] (-) TimerEvent: {}
+[1.876274] (custom_action_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.913857] (-) TimerEvent: {}
+[1.952367] (custom_action_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.014935] (-) TimerEvent: {}
+[2.115351] (-) TimerEvent: {}
+[2.219813] (-) TimerEvent: {}
+[2.320371] (-) TimerEvent: {}
+[2.419639] (maha_params) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/maha_params', 'build', '--build-base', '/home/shaalekh/Desktop/ros2_ws/build/maha_params/build', 'install', '--record', '/home/shaalekh/Desktop/ros2_ws/build/maha_params/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/shaalekh/Desktop/ros2_ws/src/maha_params', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shaalekh', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shaalekh', 'OLDPWD': '/home/shaalekh/Desktop/ros2_ws/src/custom_action_interfaces', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2047', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shaalekh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shaalekh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/raspi5-ubuntu:@/tmp/.ICE-unix/2006,unix/raspi5-ubuntu:/tmp/.ICE-unix/2006', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b7b2a87c_507e_45f8_a2dd_39a1d0ef252b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.635T92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.361', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shaalekh/Desktop/ros2_ws/build/maha_params', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shaalekh/Desktop/ros2_ws/build/maha_params/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.420960] (-) TimerEvent: {}
+[2.452362] (srvcli) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/srvcli', 'build', '--build-base', '/home/shaalekh/Desktop/ros2_ws/build/srvcli/build', 'install', '--record', '/home/shaalekh/Desktop/ros2_ws/build/srvcli/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/shaalekh/Desktop/ros2_ws/src/srvcli', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shaalekh', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shaalekh', 'OLDPWD': '/home/shaalekh/Desktop/ros2_ws/src/custom_action_interfaces', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2047', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shaalekh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shaalekh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/raspi5-ubuntu:@/tmp/.ICE-unix/2006,unix/raspi5-ubuntu:/tmp/.ICE-unix/2006', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b7b2a87c_507e_45f8_a2dd_39a1d0ef252b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.635T92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.361', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shaalekh/Desktop/ros2_ws/build/srvcli', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shaalekh/Desktop/ros2_ws/build/srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.521075] (-) TimerEvent: {}
+[2.621459] (-) TimerEvent: {}
+[2.721906] (-) TimerEvent: {}
+[2.822273] (-) TimerEvent: {}
+[2.924898] (-) TimerEvent: {}
+[3.025358] (-) TimerEvent: {}
+[3.026523] (maha_params) StdoutLine: {'line': b'running egg_info\n'}
+[3.030656] (maha_params) StdoutLine: {'line': b'creating ../../build/maha_params/maha_params.egg-info\n'}
+[3.034102] (srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[3.034910] (srvcli) StdoutLine: {'line': b'creating ../../build/srvcli/srvcli.egg-info\n'}
+[3.059926] (maha_params) StdoutLine: {'line': b'writing ../../build/maha_params/maha_params.egg-info/PKG-INFO\n'}
+[3.060412] (maha_params) StdoutLine: {'line': b'writing dependency_links to ../../build/maha_params/maha_params.egg-info/dependency_links.txt\n'}
+[3.060787] (maha_params) StdoutLine: {'line': b'writing entry points to ../../build/maha_params/maha_params.egg-info/entry_points.txt\n'}
+[3.061022] (maha_params) StdoutLine: {'line': b'writing requirements to ../../build/maha_params/maha_params.egg-info/requires.txt\n'}
+[3.062545] (maha_params) StdoutLine: {'line': b'writing top-level names to ../../build/maha_params/maha_params.egg-info/top_level.txt\n'}
+[3.062787] (maha_params) StdoutLine: {'line': b"writing manifest file '../../build/maha_params/maha_params.egg-info/SOURCES.txt'\n"}
+[3.064237] (srvcli) StdoutLine: {'line': b'writing ../../build/srvcli/srvcli.egg-info/PKG-INFO\n'}
+[3.064422] (srvcli) StdoutLine: {'line': b'writing dependency_links to ../../build/srvcli/srvcli.egg-info/dependency_links.txt\n'}
+[3.067690] (srvcli) StdoutLine: {'line': b'writing entry points to ../../build/srvcli/srvcli.egg-info/entry_points.txt\n'}
+[3.067833] (srvcli) StdoutLine: {'line': b'writing requirements to ../../build/srvcli/srvcli.egg-info/requires.txt\n'}
+[3.067924] (srvcli) StdoutLine: {'line': b'writing top-level names to ../../build/srvcli/srvcli.egg-info/top_level.txt\n'}
+[3.068012] (srvcli) StdoutLine: {'line': b"writing manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'\n"}
+[3.123730] (maha_params) StdoutLine: {'line': b"reading manifest file '../../build/maha_params/maha_params.egg-info/SOURCES.txt'\n"}
+[3.124064] (maha_params) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.125828] (maha_params) StdoutLine: {'line': b"writing manifest file '../../build/maha_params/maha_params.egg-info/SOURCES.txt'\n"}
+[3.126055] (-) TimerEvent: {}
+[3.129600] (maha_params) StdoutLine: {'line': b'running build\n'}
+[3.129900] (maha_params) StdoutLine: {'line': b'running build_py\n'}
+[3.130036] (maha_params) StdoutLine: {'line': b'creating /home/shaalekh/Desktop/ros2_ws/build/maha_params/build\n'}
+[3.130138] (maha_params) StdoutLine: {'line': b'creating /home/shaalekh/Desktop/ros2_ws/build/maha_params/build/lib\n'}
+[3.130224] (maha_params) StdoutLine: {'line': b'creating /home/shaalekh/Desktop/ros2_ws/build/maha_params/build/lib/maha_params\n'}
+[3.130318] (maha_params) StdoutLine: {'line': b'copying maha_params/param_timer_node.py -> /home/shaalekh/Desktop/ros2_ws/build/maha_params/build/lib/maha_params\n'}
+[3.130462] (maha_params) StdoutLine: {'line': b'copying maha_params/py_parameter.py -> /home/shaalekh/Desktop/ros2_ws/build/maha_params/build/lib/maha_params\n'}
+[3.130687] (maha_params) StdoutLine: {'line': b'copying maha_params/__init__.py -> /home/shaalekh/Desktop/ros2_ws/build/maha_params/build/lib/maha_params\n'}
+[3.131293] (maha_params) StdoutLine: {'line': b'copying maha_params/param_node.py -> /home/shaalekh/Desktop/ros2_ws/build/maha_params/build/lib/maha_params\n'}
+[3.135579] (maha_params) StdoutLine: {'line': b'running install\n'}
+[3.139664] (srvcli) StdoutLine: {'line': b"reading manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'\n"}
+[3.140490] (srvcli) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.141720] (srvcli) StdoutLine: {'line': b"writing manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'\n"}
+[3.144459] (srvcli) StdoutLine: {'line': b'running build\n'}
+[3.145386] (srvcli) StdoutLine: {'line': b'running build_py\n'}
+[3.146848] (srvcli) StdoutLine: {'line': b'creating /home/shaalekh/Desktop/ros2_ws/build/srvcli/build\n'}
+[3.150268] (srvcli) StdoutLine: {'line': b'creating /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib\n'}
+[3.150567] (srvcli) StdoutLine: {'line': b'creating /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli\n'}
+[3.150725] (srvcli) StdoutLine: {'line': b'copying srvcli/cust_client.py -> /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli\n'}
+[3.150844] (srvcli) StdoutLine: {'line': b'copying srvcli/service_agent.py -> /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli\n'}
+[3.151026] (maha_params) StdoutLine: {'line': b'running install_lib\n'}
+[3.151249] (srvcli) StdoutLine: {'line': b'copying srvcli/client_agent_2.py -> /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli\n'}
+[3.151453] (srvcli) StdoutLine: {'line': b'copying srvcli/__init__.py -> /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli\n'}
+[3.151807] (srvcli) StdoutLine: {'line': b'copying srvcli/client_agent.py -> /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli\n'}
+[3.153339] (srvcli) StdoutLine: {'line': b'copying srvcli/cust_service.py -> /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli\n'}
+[3.155564] (srvcli) StdoutLine: {'line': b'running install\n'}
+[3.171615] (srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[3.191547] (maha_params) StdoutLine: {'line': b'creating /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages/maha_params\n'}
+[3.191894] (maha_params) StdoutLine: {'line': b'copying /home/shaalekh/Desktop/ros2_ws/build/maha_params/build/lib/maha_params/param_timer_node.py -> /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages/maha_params\n'}
+[3.192076] (maha_params) StdoutLine: {'line': b'copying /home/shaalekh/Desktop/ros2_ws/build/maha_params/build/lib/maha_params/py_parameter.py -> /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages/maha_params\n'}
+[3.192282] (maha_params) StdoutLine: {'line': b'copying /home/shaalekh/Desktop/ros2_ws/build/maha_params/build/lib/maha_params/__init__.py -> /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages/maha_params\n'}
+[3.192497] (maha_params) StdoutLine: {'line': b'copying /home/shaalekh/Desktop/ros2_ws/build/maha_params/build/lib/maha_params/param_node.py -> /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages/maha_params\n'}
+[3.193595] (maha_params) StdoutLine: {'line': b'byte-compiling /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages/maha_params/param_timer_node.py to param_timer_node.cpython-312.pyc\n'}
+[3.194671] (maha_params) StdoutLine: {'line': b'byte-compiling /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages/maha_params/py_parameter.py to py_parameter.cpython-312.pyc\n'}
+[3.195534] (maha_params) StdoutLine: {'line': b'byte-compiling /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages/maha_params/__init__.py to __init__.cpython-312.pyc\n'}
+[3.195857] (maha_params) StdoutLine: {'line': b'byte-compiling /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages/maha_params/param_node.py to param_node.cpython-312.pyc\n'}
+[3.196627] (maha_params) StdoutLine: {'line': b'running install_data\n'}
+[3.197043] (maha_params) StdoutLine: {'line': b'creating /home/shaalekh/Desktop/ros2_ws/install/maha_params/share/ament_index\n'}
+[3.197252] (maha_params) StdoutLine: {'line': b'creating /home/shaalekh/Desktop/ros2_ws/install/maha_params/share/ament_index/resource_index\n'}
+[3.197385] (maha_params) StdoutLine: {'line': b'creating /home/shaalekh/Desktop/ros2_ws/install/maha_params/share/ament_index/resource_index/packages\n'}
+[3.197843] (maha_params) StdoutLine: {'line': b'copying resource/maha_params -> /home/shaalekh/Desktop/ros2_ws/install/maha_params/share/ament_index/resource_index/packages\n'}
+[3.198533] (maha_params) StdoutLine: {'line': b'copying package.xml -> /home/shaalekh/Desktop/ros2_ws/install/maha_params/share/maha_params\n'}
+[3.198719] (maha_params) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.207686] (srvcli) StdoutLine: {'line': b'creating /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli\n'}
+[3.210561] (srvcli) StdoutLine: {'line': b'copying /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli/cust_client.py -> /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli\n'}
+[3.210939] (srvcli) StdoutLine: {'line': b'copying /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli/service_agent.py -> /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli\n'}
+[3.211082] (srvcli) StdoutLine: {'line': b'copying /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli/client_agent_2.py -> /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli\n'}
+[3.211230] (srvcli) StdoutLine: {'line': b'copying /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli/__init__.py -> /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli\n'}
+[3.211531] (srvcli) StdoutLine: {'line': b'copying /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli/client_agent.py -> /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli\n'}
+[3.211744] (srvcli) StdoutLine: {'line': b'copying /home/shaalekh/Desktop/ros2_ws/build/srvcli/build/lib/srvcli/cust_service.py -> /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli\n'}
+[3.213708] (srvcli) StdoutLine: {'line': b'byte-compiling /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli/cust_client.py to cust_client.cpython-312.pyc\n'}
+[3.216181] (srvcli) StdoutLine: {'line': b'byte-compiling /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli/service_agent.py to service_agent.cpython-312.pyc\n'}
+[3.218663] (srvcli) StdoutLine: {'line': b'byte-compiling /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli/client_agent_2.py to client_agent_2.cpython-312.pyc\n'}
+[3.220580] (srvcli) StdoutLine: {'line': b'byte-compiling /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli/__init__.py to __init__.cpython-312.pyc\n'}
+[3.220949] (srvcli) StdoutLine: {'line': b'byte-compiling /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli/client_agent.py to client_agent.cpython-312.pyc\n'}
+[3.221742] (srvcli) StdoutLine: {'line': b'byte-compiling /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli/cust_service.py to cust_service.cpython-312.pyc\n'}
+[3.223079] (srvcli) StdoutLine: {'line': b'running install_data\n'}
+[3.223294] (srvcli) StdoutLine: {'line': b'creating /home/shaalekh/Desktop/ros2_ws/install/srvcli/share/ament_index\n'}
+[3.223507] (srvcli) StdoutLine: {'line': b'creating /home/shaalekh/Desktop/ros2_ws/install/srvcli/share/ament_index/resource_index\n'}
+[3.225472] (srvcli) StdoutLine: {'line': b'creating /home/shaalekh/Desktop/ros2_ws/install/srvcli/share/ament_index/resource_index/packages\n'}
+[3.225748] (srvcli) StdoutLine: {'line': b'copying resource/srvcli -> /home/shaalekh/Desktop/ros2_ws/install/srvcli/share/ament_index/resource_index/packages\n'}
+[3.225851] (srvcli) StdoutLine: {'line': b'copying package.xml -> /home/shaalekh/Desktop/ros2_ws/install/srvcli/share/srvcli\n'}
+[3.225938] (srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.227571] (-) TimerEvent: {}
+[3.245266] (maha_params) StdoutLine: {'line': b'Copying ../../build/maha_params/maha_params.egg-info to /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/python3.12/site-packages/maha_params-0.0.0-py3.12.egg-info\n'}
+[3.247213] (maha_params) StdoutLine: {'line': b'running install_scripts\n'}
+[3.263293] (srvcli) StdoutLine: {'line': b'Copying ../../build/srvcli/srvcli.egg-info to /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/python3.12/site-packages/srvcli-0.0.0-py3.12.egg-info\n'}
+[3.267549] (srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[3.327749] (-) TimerEvent: {}
+[3.410127] (custom_action_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.427843] (-) TimerEvent: {}
+[3.468561] (customs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.526021] (srvcli) StdoutLine: {'line': b'Installing client script to /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/srvcli\n'}
+[3.526530] (srvcli) StdoutLine: {'line': b'Installing service script to /home/shaalekh/Desktop/ros2_ws/install/srvcli/lib/srvcli\n'}
+[3.527449] (srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/shaalekh/Desktop/ros2_ws/build/srvcli/install.log'\n"}
+[3.527936] (-) TimerEvent: {}
+[3.541403] (maha_params) StdoutLine: {'line': b'Installing my_parameter script to /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/maha_params\n'}
+[3.542103] (maha_params) StdoutLine: {'line': b'Installing param_node script to /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/maha_params\n'}
+[3.542928] (maha_params) StdoutLine: {'line': b'Installing param_timer_node script to /home/shaalekh/Desktop/ros2_ws/install/maha_params/lib/maha_params\n'}
+[3.546656] (maha_params) StdoutLine: {'line': b"writing list of installed files to '/home/shaalekh/Desktop/ros2_ws/build/maha_params/install.log'\n"}
+[3.628127] (-) TimerEvent: {}
+[3.729103] (srvcli) CommandEnded: {'returncode': 0}
+[3.729776] (-) TimerEvent: {}
+[3.751148] (srvcli) JobEnded: {'identifier': 'srvcli', 'rc': 0}
+[3.752988] (maha_params) CommandEnded: {'returncode': 0}
+[3.762108] (maha_params) JobEnded: {'identifier': 'maha_params', 'rc': 0}
+[3.829907] (-) TimerEvent: {}
+[3.930240] (-) TimerEvent: {}
+[4.030553] (-) TimerEvent: {}
+[4.130914] (-) TimerEvent: {}
+[4.231298] (-) TimerEvent: {}
+[4.323000] (custom_action_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.331391] (-) TimerEvent: {}
+[4.431773] (-) TimerEvent: {}
+[4.532153] (-) TimerEvent: {}
+[4.632555] (-) TimerEvent: {}
+[4.732951] (-) TimerEvent: {}
+[4.833319] (-) TimerEvent: {}
+[4.933700] (-) TimerEvent: {}
+[5.034048] (-) TimerEvent: {}
+[5.093241] (customs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.134146] (-) TimerEvent: {}
+[5.234517] (-) TimerEvent: {}
+[5.317934] (custom_action_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.321622] (custom_action_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[5.334610] (-) TimerEvent: {}
+[5.435092] (-) TimerEvent: {}
+[5.535453] (-) TimerEvent: {}
+[5.561240] (custom_action_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[5.635573] (-) TimerEvent: {}
+[5.682953] (customs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.686911] (customs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[5.735677] (-) TimerEvent: {}
+[5.836071] (-) TimerEvent: {}
+[5.934828] (customs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[5.936138] (-) TimerEvent: {}
+[6.036445] (-) TimerEvent: {}
+[6.136863] (-) TimerEvent: {}
+[6.237299] (-) TimerEvent: {}
+[6.337628] (-) TimerEvent: {}
+[6.407961] (custom_action_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[6.437731] (-) TimerEvent: {}
+[6.473110] (custom_action_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.475135] (custom_action_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.482684] (custom_action_interfaces) StdoutLine: {'line': b'-- Configuring done (6.4s)\n'}
+[6.537848] (-) TimerEvent: {}
+[6.557636] (custom_action_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[6.577808] (custom_action_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/shaalekh/Desktop/ros2_ws/build/custom_action_interfaces\n'}
+[6.606931] (custom_action_interfaces) CommandEnded: {'returncode': 0}
+[6.607670] (custom_action_interfaces) JobProgress: {'identifier': 'custom_action_interfaces', 'progress': 'build'}
+[6.608409] (custom_action_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shaalekh/Desktop/ros2_ws/build/custom_action_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/shaalekh/Desktop/ros2_ws/build/custom_action_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shaalekh', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shaalekh', 'OLDPWD': '/home/shaalekh/Desktop/ros2_ws/src/custom_action_interfaces', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2047', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shaalekh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shaalekh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/raspi5-ubuntu:@/tmp/.ICE-unix/2006,unix/raspi5-ubuntu:/tmp/.ICE-unix/2006', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b7b2a87c_507e_45f8_a2dd_39a1d0ef252b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.635T92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.361', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shaalekh/Desktop/ros2_ws/build/custom_action_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.637964] (-) TimerEvent: {}
+[6.704323] (custom_action_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[6.727732] (custom_action_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_custom_action_interfaces\n'}
+[6.739572] (-) TimerEvent: {}
+[6.803611] (customs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[6.839794] (-) TimerEvent: {}
+[6.914998] (customs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[6.939877] (-) TimerEvent: {}
+[6.970515] (customs) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.971265] (customs) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.971471] (customs) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.975221] (customs) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.975516] (customs) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[6.981714] (customs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.985437] (customs) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.007287] (customs) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.007594] (customs) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.011172] (customs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.016671] (customs) StdoutLine: {'line': b'-- Configuring done (7.0s)\n'}
+[7.040595] (-) TimerEvent: {}
+[7.096372] (custom_action_interfaces) StdoutLine: {'line': b'[  2%] Built target custom_action_interfaces__rosidl_generator_type_description\n'}
+[7.118207] (custom_action_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.120670] (custom_action_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[7.125601] (custom_action_interfaces) StdoutLine: {'line': b'creating custom_action_interfaces.egg-info\n'}
+[7.130878] (customs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[7.140694] (-) TimerEvent: {}
+[7.145393] (custom_action_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.169372] (customs) StdoutLine: {'line': b'-- Build files have been written to: /home/shaalekh/Desktop/ros2_ws/build/customs\n'}
+[7.173087] (custom_action_interfaces) StdoutLine: {'line': b'writing custom_action_interfaces.egg-info/PKG-INFO\n'}
+[7.173980] (custom_action_interfaces) StdoutLine: {'line': b'writing dependency_links to custom_action_interfaces.egg-info/dependency_links.txt\n'}
+[7.175112] (custom_action_interfaces) StdoutLine: {'line': b'writing top-level names to custom_action_interfaces.egg-info/top_level.txt\n'}
+[7.175428] (custom_action_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_action_interfaces.egg-info/SOURCES.txt'\n"}
+[7.219098] (customs) CommandEnded: {'returncode': 0}
+[7.220191] (customs) JobProgress: {'identifier': 'customs', 'progress': 'build'}
+[7.220753] (customs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shaalekh/Desktop/ros2_ws/build/customs', '--', '-j4', '-l4'], 'cwd': '/home/shaalekh/Desktop/ros2_ws/build/customs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shaalekh', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shaalekh', 'OLDPWD': '/home/shaalekh/Desktop/ros2_ws/src/custom_action_interfaces', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2047', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shaalekh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shaalekh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/raspi5-ubuntu:@/tmp/.ICE-unix/2006,unix/raspi5-ubuntu:/tmp/.ICE-unix/2006', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b7b2a87c_507e_45f8_a2dd_39a1d0ef252b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.635T92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.361', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shaalekh/Desktop/ros2_ws/build/customs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.241000] (-) TimerEvent: {}
+[7.319416] (custom_action_interfaces) StdoutLine: {'line': b"reading manifest file 'custom_action_interfaces.egg-info/SOURCES.txt'\n"}
+[7.322639] (custom_action_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_action_interfaces.egg-info/SOURCES.txt'\n"}
+[7.341128] (-) TimerEvent: {}
+[7.411234] (customs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[7.413257] (customs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_customs\n'}
+[7.441248] (-) TimerEvent: {}
+[7.481308] (custom_action_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_custom_action_interfaces_egg\n'}
+[7.541361] (-) TimerEvent: {}
+[7.641798] (-) TimerEvent: {}
+[7.744678] (-) TimerEvent: {}
+[7.842560] (customs) StdoutLine: {'line': b'running egg_info\n'}
+[7.844801] (-) TimerEvent: {}
+[7.845107] (customs) StdoutLine: {'line': b'creating customs.egg-info\n'}
+[7.889543] (customs) StdoutLine: {'line': b'writing customs.egg-info/PKG-INFO\n'}
+[7.889803] (customs) StdoutLine: {'line': b'writing dependency_links to customs.egg-info/dependency_links.txt\n'}
+[7.889934] (customs) StdoutLine: {'line': b'writing top-level names to customs.egg-info/top_level.txt\n'}
+[7.892117] (customs) StdoutLine: {'line': b"writing manifest file 'customs.egg-info/SOURCES.txt'\n"}
+[7.944988] (-) TimerEvent: {}
+[7.963441] (customs) StdoutLine: {'line': b'[  1%] Built target customs__rosidl_generator_type_description\n'}
+[8.014562] (customs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[8.033431] (customs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[8.045089] (-) TimerEvent: {}
+[8.051759] (customs) StdoutLine: {'line': b"reading manifest file 'customs.egg-info/SOURCES.txt'\n"}
+[8.052548] (customs) StdoutLine: {'line': b"writing manifest file 'customs.egg-info/SOURCES.txt'\n"}
+[8.146597] (-) TimerEvent: {}
+[8.181981] (custom_action_interfaces) StdoutLine: {'line': b'[  8%] Built target custom_action_interfaces__cpp\n'}
+[8.208269] (custom_action_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_action_interfaces/action/detail/fibonacci__description.c.o\x1b[0m\n'}
+[8.227664] (custom_action_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_action_interfaces/action/detail/fibonacci__functions.c.o\x1b[0m\n'}
+[8.232710] (customs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_customs_egg\n'}
+[8.235507] (custom_action_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_action_interfaces/action/detail/fibonacci__type_support.c.o\x1b[0m\n'}
+[8.246722] (-) TimerEvent: {}
+[8.350174] (-) TimerEvent: {}
+[8.450564] (-) TimerEvent: {}
+[8.550907] (-) TimerEvent: {}
+[8.563355] (custom_action_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libcustom_action_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[8.642046] (custom_action_interfaces) StdoutLine: {'line': b'[ 20%] Built target custom_action_interfaces__rosidl_generator_c\n'}
+[8.651017] (-) TimerEvent: {}
+[8.676562] (custom_action_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.681056] (custom_action_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.687405] (custom_action_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.692730] (custom_action_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.751144] (-) TimerEvent: {}
+[8.851562] (-) TimerEvent: {}
+[8.951975] (-) TimerEvent: {}
+[9.056573] (-) TimerEvent: {}
+[9.159637] (-) TimerEvent: {}
+[9.262572] (-) TimerEvent: {}
+[9.362975] (-) TimerEvent: {}
+[9.463345] (-) TimerEvent: {}
+[9.538762] (customs) StdoutLine: {'line': b'[  4%] Built target customs__cpp\n'}
+[9.563502] (-) TimerEvent: {}
+[9.605992] (customs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/msg/detail/sphere__description.c.o\x1b[0m\n'}
+[9.608241] (customs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/msg/detail/num__description.c.o\x1b[0m\n'}
+[9.608525] (customs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[9.608703] (customs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/msg/detail/num__functions.c.o\x1b[0m\n'}
+[9.663586] (-) TimerEvent: {}
+[9.766564] (-) TimerEvent: {}
+[9.798357] (customs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[9.806581] (customs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[9.824131] (customs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/msg/detail/address_book__description.c.o\x1b[0m\n'}
+[9.868803] (-) TimerEvent: {}
+[9.885308] (customs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/msg/detail/address_book__functions.c.o\x1b[0m\n'}
+[9.901620] (custom_action_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_action_interfaces/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[9.951976] (customs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/msg/detail/address_book__type_support.c.o\x1b[0m\n'}
+[9.971600] (custom_action_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_action_interfaces/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[9.972530] (-) TimerEvent: {}
+[10.023901] (customs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/srv/detail/add_three_ints__description.c.o\x1b[0m\n'}
+[10.074852] (-) TimerEvent: {}
+[10.097876] (customs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[10.125665] (custom_action_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_action_interfaces/action/detail/fibonacci__type_support.c.o\x1b[0m\n'}
+[10.128372] (customs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[10.174989] (-) TimerEvent: {}
+[10.276603] (-) TimerEvent: {}
+[10.283869] (custom_action_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.301443] (custom_action_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[10.343565] (customs) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libcustoms__rosidl_generator_c.so\x1b[0m\n'}
+[10.349404] (custom_action_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library libcustom_action_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.377610] (-) TimerEvent: {}
+[10.444356] (custom_action_interfaces) StdoutLine: {'line': b'[ 50%] Built target custom_action_interfaces__rosidl_typesupport_c\n'}
+[10.464609] (custom_action_interfaces) StdoutLine: {'line': b'[ 50%] Built target custom_action_interfaces__rosidl_typesupport_introspection_c\n'}
+[10.476919] (custom_action_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[10.477698] (-) TimerEvent: {}
+[10.503809] (customs) StdoutLine: {'line': b'[ 25%] Built target customs__rosidl_generator_c\n'}
+[10.516131] (custom_action_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.554548] (customs) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.554857] (customs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.555098] (customs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.566570] (customs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.577822] (-) TimerEvent: {}
+[10.680614] (-) TimerEvent: {}
+[10.783572] (-) TimerEvent: {}
+[10.886576] (-) TimerEvent: {}
+[10.986931] (-) TimerEvent: {}
+[11.087276] (-) TimerEvent: {}
+[11.187720] (-) TimerEvent: {}
+[11.288089] (-) TimerEvent: {}
+[11.388525] (-) TimerEvent: {}
+[11.491548] (-) TimerEvent: {}
+[11.591904] (-) TimerEvent: {}
+[11.692289] (-) TimerEvent: {}
+[11.725675] (customs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/customs/msg/num__type_support.cpp.o\x1b[0m\n'}
+[11.792417] (-) TimerEvent: {}
+[11.896735] (-) TimerEvent: {}
+[11.997145] (-) TimerEvent: {}
+[12.099814] (-) TimerEvent: {}
+[12.152416] (custom_action_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_action_interfaces/action/detail/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[12.199935] (-) TimerEvent: {}
+[12.304573] (-) TimerEvent: {}
+[12.405002] (-) TimerEvent: {}
+[12.419203] (custom_action_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__type_support_c.cpp.o\x1b[0m\n'}
+[12.502698] (customs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/customs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/customs/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[12.505128] (-) TimerEvent: {}
+[12.609293] (-) TimerEvent: {}
+[12.653224] (customs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/customs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/customs/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[12.709564] (-) TimerEvent: {}
+[12.813959] (customs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/customs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/customs/msg/detail/address_book__type_support.c.o\x1b[0m\n'}
+[12.814296] (-) TimerEvent: {}
+[12.914728] (-) TimerEvent: {}
+[12.952706] (customs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customs/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[13.017594] (-) TimerEvent: {}
+[13.023836] (custom_action_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[13.055607] (customs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/customs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/customs/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[13.117734] (-) TimerEvent: {}
+[13.131000] (customs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/customs/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[13.220586] (-) TimerEvent: {}
+[13.319412] (customs) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking C shared library libcustoms__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.320739] (-) TimerEvent: {}
+[13.422944] (-) TimerEvent: {}
+[13.481054] (customs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/customs/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[13.518598] (customs) StdoutLine: {'line': b'[ 45%] Built target customs__rosidl_typesupport_introspection_c\n'}
+[13.523116] (-) TimerEvent: {}
+[13.569599] (customs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/customs/msg/detail/sphere__type_support_c.cpp.o\x1b[0m\n'}
+[13.588678] (custom_action_interfaces) StdoutLine: {'line': b'[ 64%] Built target custom_action_interfaces__rosidl_typesupport_cpp\n'}
+[13.623246] (-) TimerEvent: {}
+[13.723735] (-) TimerEvent: {}
+[13.824210] (-) TimerEvent: {}
+[13.929857] (-) TimerEvent: {}
+[14.032948] (-) TimerEvent: {}
+[14.133465] (-) TimerEvent: {}
+[14.234033] (-) TimerEvent: {}
+[14.338797] (-) TimerEvent: {}
+[14.439240] (-) TimerEvent: {}
+[14.539703] (-) TimerEvent: {}
+[14.640191] (-) TimerEvent: {}
+[14.740696] (-) TimerEvent: {}
+[14.845586] (-) TimerEvent: {}
+[14.946047] (-) TimerEvent: {}
+[14.991105] (customs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customs/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[15.048742] (-) TimerEvent: {}
+[15.071012] (custom_action_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[15.148987] (-) TimerEvent: {}
+[15.225675] (customs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/customs/msg/address_book__type_support.cpp.o\x1b[0m\n'}
+[15.249105] (-) TimerEvent: {}
+[15.352964] (-) TimerEvent: {}
+[15.452787] (custom_action_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[15.453112] (-) TimerEvent: {}
+[15.528602] (custom_action_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_action_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[15.546700] (customs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/customs/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[15.553334] (-) TimerEvent: {}
+[15.656590] (-) TimerEvent: {}
+[15.722084] (customs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/customs/msg/detail/address_book__type_support_c.cpp.o\x1b[0m\n'}
+[15.747363] (custom_action_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_action_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[15.756740] (-) TimerEvent: {}
+[15.859960] (-) TimerEvent: {}
+[15.960504] (-) TimerEvent: {}
+[16.061045] (-) TimerEvent: {}
+[16.166811] (-) TimerEvent: {}
+[16.267237] (-) TimerEvent: {}
+[16.313677] (custom_action_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[16.357281] (customs) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[16.371703] (-) TimerEvent: {}
+[16.472249] (-) TimerEvent: {}
+[16.572892] (-) TimerEvent: {}
+[16.583952] (customs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customs/msg/detail/dds_fastrtps/address_book__type_support.cpp.o\x1b[0m\n'}
+[16.673014] (-) TimerEvent: {}
+[16.698660] (custom_action_interfaces) StdoutLine: {'line': b'[ 73%] Built target custom_action_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[16.773144] (-) TimerEvent: {}
+[16.791905] (custom_action_interfaces) StdoutLine: {'line': b'[ 73%] Built target custom_action_interfaces\n'}
+[16.816949] (customs) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libcustoms__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[16.875568] (-) TimerEvent: {}
+[16.892493] (custom_action_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[16.979594] (-) TimerEvent: {}
+[17.047757] (customs) StdoutLine: {'line': b'[ 57%] Built target customs__rosidl_typesupport_cpp\n'}
+[17.079729] (-) TimerEvent: {}
+[17.090176] (customs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customs/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[17.182610] (-) TimerEvent: {}
+[17.283137] (-) TimerEvent: {}
+[17.315269] (customs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/customs/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[17.383267] (-) TimerEvent: {}
+[17.429288] (customs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_c.dir/rosidl_typesupport_c/customs/msg/num__type_support.cpp.o\x1b[0m\n'}
+[17.483419] (-) TimerEvent: {}
+[17.585192] (-) TimerEvent: {}
+[17.637069] (customs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_c.dir/rosidl_typesupport_c/customs/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[17.685326] (-) TimerEvent: {}
+[17.785770] (-) TimerEvent: {}
+[17.808730] (customs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_c.dir/rosidl_typesupport_c/customs/msg/address_book__type_support.cpp.o\x1b[0m\n'}
+[17.839731] (customs) StdoutLine: {'line': b'[ 67%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[17.885897] (-) TimerEvent: {}
+[17.986306] (-) TimerEvent: {}
+[18.006653] (customs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_c.dir/rosidl_typesupport_c/customs/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[18.086574] (-) TimerEvent: {}
+[18.159811] (customs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcustoms__rosidl_typesupport_c.so\x1b[0m\n'}
+[18.186637] (-) TimerEvent: {}
+[18.290883] (-) TimerEvent: {}
+[18.368472] (customs) StdoutLine: {'line': b'[ 70%] Built target customs__rosidl_typesupport_c\n'}
+[18.390990] (-) TimerEvent: {}
+[18.491393] (-) TimerEvent: {}
+[18.591852] (-) TimerEvent: {}
+[18.696571] (-) TimerEvent: {}
+[18.716915] (customs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libcustoms__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[18.719343] (customs) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libcustoms__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[18.724715] (custom_action_interfaces) StdoutLine: {'line': b'[ 76%] Built target custom_action_interfaces__py\n'}
+[18.773185] (custom_action_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_action_interfaces/action/_fibonacci_s.c.o\x1b[0m\n'}
+[18.796909] (-) TimerEvent: {}
+[18.814818] (customs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/customs/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[18.834434] (customs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/customs/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[18.898618] (-) TimerEvent: {}
+[18.999041] (-) TimerEvent: {}
+[19.004576] (customs) StdoutLine: {'line': b'[ 76%] Built target customs__rosidl_typesupport_fastrtps_c\n'}
+[19.038951] (customs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/customs/msg/detail/address_book__type_support.cpp.o\x1b[0m\n'}
+[19.066954] (customs) StdoutLine: {'line': b'[ 78%] Built target customs__rosidl_typesupport_fastrtps_cpp\n'}
+[19.099946] (-) TimerEvent: {}
+[19.117767] (customs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/customs/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[19.200001] (-) TimerEvent: {}
+[19.304588] (-) TimerEvent: {}
+[19.405062] (-) TimerEvent: {}
+[19.493641] (custom_action_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libcustom_action_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[19.505190] (-) TimerEvent: {}
+[19.610823] (-) TimerEvent: {}
+[19.711381] (-) TimerEvent: {}
+[19.783795] (custom_action_interfaces) StdoutLine: {'line': b'[ 82%] Built target custom_action_interfaces__rosidl_generator_py\n'}
+[19.812578] (-) TimerEvent: {}
+[19.842658] (custom_action_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[19.856239] (custom_action_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/custom_action_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[19.868947] (custom_action_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/custom_action_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[19.912718] (-) TimerEvent: {}
+[20.013160] (-) TimerEvent: {}
+[20.116752] (-) TimerEvent: {}
+[20.150221] (custom_action_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[20.163953] (custom_action_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[20.170831] (custom_action_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[20.216925] (-) TimerEvent: {}
+[20.234843] (custom_action_interfaces) StdoutLine: {'line': b'[100%] Built target custom_action_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[20.244568] (custom_action_interfaces) StdoutLine: {'line': b'[100%] Built target custom_action_interfaces_s__rosidl_typesupport_c\n'}
+[20.254472] (custom_action_interfaces) StdoutLine: {'line': b'[100%] Built target custom_action_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[20.277039] (custom_action_interfaces) CommandEnded: {'returncode': 0}
+[20.277929] (custom_action_interfaces) JobProgress: {'identifier': 'custom_action_interfaces', 'progress': 'install'}
+[20.296196] (custom_action_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shaalekh/Desktop/ros2_ws/build/custom_action_interfaces'], 'cwd': '/home/shaalekh/Desktop/ros2_ws/build/custom_action_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shaalekh', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shaalekh', 'OLDPWD': '/home/shaalekh/Desktop/ros2_ws/src/custom_action_interfaces', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2047', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shaalekh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shaalekh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/raspi5-ubuntu:@/tmp/.ICE-unix/2006,unix/raspi5-ubuntu:/tmp/.ICE-unix/2006', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b7b2a87c_507e_45f8_a2dd_39a1d0ef252b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.635T92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.361', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shaalekh/Desktop/ros2_ws/build/custom_action_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[20.297099] (customs) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libcustoms__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[20.311159] (custom_action_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.311524] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_action_interfaces\n'}
+[20.311851] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/action/Fibonacci.json\n'}
+[20.312094] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces\n'}
+[20.312319] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action\n'}
+[20.312568] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail\n'}
+[20.312699] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__functions.c\n'}
+[20.312911] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__functions.h\n'}
+[20.313228] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.h\n'}
+[20.313396] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__struct.h\n'}
+[20.313551] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.c\n'}
+[20.313708] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__description.c\n'}
+[20.313971] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/fibonacci.h\n'}
+[20.314104] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg\n'}
+[20.314228] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[20.314504] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/library_path.sh\n'}
+[20.314713] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/library_path.dsv\n'}
+[20.315602] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_generator_c.so\n'}
+[20.316050] (custom_action_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_generator_c.so" to ""\n'}
+[20.317005] (-) TimerEvent: {}
+[20.318672] (custom_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces\n'}
+[20.319258] (custom_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action\n'}
+[20.320176] (custom_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail\n'}
+[20.320872] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h\n'}
+[20.321221] (custom_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg\n'}
+[20.321406] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[20.324355] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[20.324527] (custom_action_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[20.324675] (custom_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces\n'}
+[20.324849] (custom_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action\n'}
+[20.325543] (custom_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail\n'}
+[20.326148] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_c.h\n'}
+[20.326328] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.c\n'}
+[20.326531] (custom_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg\n'}
+[20.326688] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[20.326834] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[20.327009] (custom_action_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[20.327135] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_c.so\n'}
+[20.327234] (custom_action_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[20.327366] (custom_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces\n'}
+[20.327472] (custom_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action\n'}
+[20.327649] (custom_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail\n'}
+[20.327776] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.hpp\n'}
+[20.327881] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__traits.hpp\n'}
+[20.327977] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__builder.hpp\n'}
+[20.328078] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__struct.hpp\n'}
+[20.328178] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/fibonacci.hpp\n'}
+[20.328280] (custom_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg\n'}
+[20.328396] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[20.328586] (custom_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces\n'}
+[20.328709] (custom_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action\n'}
+[20.328813] (custom_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail\n'}
+[20.328958] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/dds_fastrtps\n'}
+[20.330688] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.330830] (custom_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg\n'}
+[20.330918] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[20.331002] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[20.331199] (custom_action_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[20.331365] (custom_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces\n'}
+[20.331509] (custom_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action\n'}
+[20.331680] (custom_action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail\n'}
+[20.331788] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.332001] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.cpp\n'}
+[20.332124] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[20.332929] (custom_action_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[20.333151] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_cpp.so\n'}
+[20.334297] (custom_action_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[20.334537] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/pythonpath.sh\n'}
+[20.334714] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/pythonpath.dsv\n'}
+[20.334871] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces-0.0.0-py3.12.egg-info\n'}
+[20.335093] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[20.335256] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[20.335399] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[20.335554] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[20.335773] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces\n'}
+[20.335930] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[20.336198] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action\n'}
+[20.336323] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action/_fibonacci.py\n'}
+[20.336646] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action/__init__.py\n'}
+[20.336814] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action/_fibonacci_s.c\n'}
+[20.337025] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[20.337272] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/__init__.py\n'}
+[20.337397] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.so\n'}
+[20.337782] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[20.338391] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[20.338786] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[20.417126] (-) TimerEvent: {}
+[20.433940] (custom_action_interfaces) StdoutLine: {'line': b"Listing '/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces'...\n"}
+[20.434256] (custom_action_interfaces) StdoutLine: {'line': b"Compiling '/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/__init__.py'...\n"}
+[20.434377] (custom_action_interfaces) StdoutLine: {'line': b"Listing '/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action'...\n"}
+[20.434506] (custom_action_interfaces) StdoutLine: {'line': b"Compiling '/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action/__init__.py'...\n"}
+[20.434700] (custom_action_interfaces) StdoutLine: {'line': b"Compiling '/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action/_fibonacci.py'...\n"}
+[20.450080] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[20.451101] (custom_action_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[20.451255] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[20.451699] (custom_action_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[20.452091] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.so\n'}
+[20.452744] (custom_action_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[20.452933] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_generator_py.so\n'}
+[20.454122] (custom_action_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_generator_py.so" to ""\n'}
+[20.454298] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/action/Fibonacci.idl\n'}
+[20.454425] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/action/Fibonacci.action\n'}
+[20.454607] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_action_interfaces\n'}
+[20.454774] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_action_interfaces\n'}
+[20.454943] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/ament_prefix_path.sh\n'}
+[20.455150] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/ament_prefix_path.dsv\n'}
+[20.455359] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/path.sh\n'}
+[20.455579] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/path.dsv\n'}
+[20.455804] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.bash\n'}
+[20.456037] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.sh\n'}
+[20.456250] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.zsh\n'}
+[20.456458] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.dsv\n'}
+[20.456703] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/package.dsv\n'}
+[20.456979] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/ament_index/resource_index/packages/custom_action_interfaces\n'}
+[20.457254] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_cExport.cmake\n'}
+[20.457944] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[20.458156] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[20.458275] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[20.458620] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[20.458825] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[20.458931] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[20.459059] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[20.459176] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_cppExport.cmake\n'}
+[20.459391] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[20.459635] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[20.459879] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[20.460110] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[20.460578] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[20.460815] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[20.461034] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_pyExport.cmake\n'}
+[20.461255] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[20.461470] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[20.461768] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.462028] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.462307] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.462627] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[20.462920] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[20.463270] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[20.463564] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfacesConfig.cmake\n'}
+[20.464982] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfacesConfig-version.cmake\n'}
+[20.465289] (custom_action_interfaces) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/custom_action_interfaces/share/custom_action_interfaces/package.xml\n'}
+[20.468130] (custom_action_interfaces) CommandEnded: {'returncode': 0}
+[20.482402] (customs) StdoutLine: {'line': b'[ 81%] Built target customs__rosidl_typesupport_introspection_cpp\n'}
+[20.494567] (custom_action_interfaces) JobEnded: {'identifier': 'custom_action_interfaces', 'rc': 0}
+[20.517262] (-) TimerEvent: {}
+[20.522641] (customs) StdoutLine: {'line': b'[ 81%] Built target customs\n'}
+[20.561582] (customs) StdoutLine: {'line': b'[ 82%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[20.617357] (-) TimerEvent: {}
+[20.717657] (-) TimerEvent: {}
+[20.817942] (-) TimerEvent: {}
+[20.918211] (-) TimerEvent: {}
+[21.018500] (-) TimerEvent: {}
+[21.118774] (-) TimerEvent: {}
+[21.219048] (-) TimerEvent: {}
+[21.321668] (-) TimerEvent: {}
+[21.375876] (customs) StdoutLine: {'line': b'[ 82%] Built target customs__py\n'}
+[21.413679] (customs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/customs__rosidl_generator_py.dir/rosidl_generator_py/customs/msg/_num_s.c.o\x1b[0m\n'}
+[21.416259] (customs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/customs__rosidl_generator_py.dir/rosidl_generator_py/customs/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[21.416596] (customs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/customs__rosidl_generator_py.dir/rosidl_generator_py/customs/msg/_address_book_s.c.o\x1b[0m\n'}
+[21.416742] (customs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/customs__rosidl_generator_py.dir/rosidl_generator_py/customs/msg/_sphere_s.c.o\x1b[0m\n'}
+[21.424647] (-) TimerEvent: {}
+[21.525270] (-) TimerEvent: {}
+[21.625716] (-) TimerEvent: {}
+[21.720023] (customs) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library libcustoms__rosidl_generator_py.so\x1b[0m\n'}
+[21.725823] (-) TimerEvent: {}
+[21.810763] (customs) StdoutLine: {'line': b'[ 90%] Built target customs__rosidl_generator_py\n'}
+[21.825953] (-) TimerEvent: {}
+[21.852691] (customs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/customs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/customs/_customs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[21.852967] (customs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/customs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/customs/_customs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[21.853109] (customs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/customs_s__rosidl_typesupport_c.dir/rosidl_generator_py/customs/_customs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[21.926085] (-) TimerEvent: {}
+[22.026527] (-) TimerEvent: {}
+[22.074167] (customs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/customs/customs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[22.074496] (customs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/customs/customs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[22.084970] (customs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/customs/customs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[22.126660] (-) TimerEvent: {}
+[22.139814] (customs) StdoutLine: {'line': b'[100%] Built target customs_s__rosidl_typesupport_introspection_c\n'}
+[22.141090] (customs) StdoutLine: {'line': b'[100%] Built target customs_s__rosidl_typesupport_c\n'}
+[22.153698] (customs) StdoutLine: {'line': b'[100%] Built target customs_s__rosidl_typesupport_fastrtps_c\n'}
+[22.175554] (customs) CommandEnded: {'returncode': 0}
+[22.176344] (customs) JobProgress: {'identifier': 'customs', 'progress': 'install'}
+[22.177449] (customs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shaalekh/Desktop/ros2_ws/build/customs'], 'cwd': '/home/shaalekh/Desktop/ros2_ws/build/customs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shaalekh', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shaalekh', 'OLDPWD': '/home/shaalekh/Desktop/ros2_ws/src/custom_action_interfaces', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2047', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shaalekh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shaalekh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/raspi5-ubuntu:@/tmp/.ICE-unix/2006,unix/raspi5-ubuntu:/tmp/.ICE-unix/2006', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b7b2a87c_507e_45f8_a2dd_39a1d0ef252b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.635T92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.361', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shaalekh/Desktop/ros2_ws/build/customs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[22.193367] (customs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.193961] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/ament_index/resource_index/rosidl_interfaces/customs\n'}
+[22.194312] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/msg/Num.json\n'}
+[22.194491] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/msg/Sphere.json\n'}
+[22.194660] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/msg/AddressBook.json\n'}
+[22.194899] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/srv/AddThreeInts.json\n'}
+[22.195145] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs\n'}
+[22.195287] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv\n'}
+[22.195402] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/add_three_ints.h\n'}
+[22.195528] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail\n'}
+[22.195655] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__description.c\n'}
+[22.195804] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__functions.c\n'}
+[22.195977] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__type_support.h\n'}
+[22.196109] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__struct.h\n'}
+[22.196251] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__functions.h\n'}
+[22.196435] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__type_support.c\n'}
+[22.196590] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg\n'}
+[22.196715] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/rosidl_generator_c__visibility_control.h\n'}
+[22.196836] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail\n'}
+[22.196942] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__struct.h\n'}
+[22.197078] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__functions.h\n'}
+[22.197219] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__type_support.c\n'}
+[22.197353] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__type_support.h\n'}
+[22.197497] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__functions.h\n'}
+[22.197675] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__description.c\n'}
+[22.197829] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__type_support.h\n'}
+[22.197948] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__functions.c\n'}
+[22.198077] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__struct.h\n'}
+[22.198207] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__description.c\n'}
+[22.198338] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__type_support.h\n'}
+[22.198474] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__type_support.c\n'}
+[22.198655] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__struct.h\n'}
+[22.198787] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__functions.c\n'}
+[22.198925] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__functions.c\n'}
+[22.199072] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__functions.h\n'}
+[22.199219] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__type_support.c\n'}
+[22.199347] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__description.c\n'}
+[22.199485] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/num.h\n'}
+[22.199618] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/address_book.h\n'}
+[22.199747] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/sphere.h\n'}
+[22.200037] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/environment/library_path.sh\n'}
+[22.200253] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/environment/library_path.dsv\n'}
+[22.200522] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_generator_c.so\n'}
+[22.201202] (customs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_generator_c.so" to ""\n'}
+[22.201336] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs\n'}
+[22.201428] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv\n'}
+[22.201597] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail\n'}
+[22.201695] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[22.201780] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg\n'}
+[22.201900] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[22.201985] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail\n'}
+[22.202068] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[22.202182] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h\n'}
+[22.202263] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[22.202378] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_fastrtps_c.so\n'}
+[22.203055] (customs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[22.203314] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs\n'}
+[22.203413] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv\n'}
+[22.203528] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail\n'}
+[22.203623] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__builder.hpp\n'}
+[22.203707] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__struct.hpp\n'}
+[22.203825] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__type_support.hpp\n'}
+[22.203912] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__traits.hpp\n'}
+[22.204035] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/add_three_ints.hpp\n'}
+[22.204115] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg\n'}
+[22.204206] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/sphere.hpp\n'}
+[22.204289] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail\n'}
+[22.204402] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__traits.hpp\n'}
+[22.204491] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__builder.hpp\n'}
+[22.204599] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__traits.hpp\n'}
+[22.204700] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__struct.hpp\n'}
+[22.204799] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__builder.hpp\n'}
+[22.204930] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__type_support.hpp\n'}
+[22.205059] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__struct.hpp\n'}
+[22.205187] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__builder.hpp\n'}
+[22.205314] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__type_support.hpp\n'}
+[22.205444] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__type_support.hpp\n'}
+[22.205584] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__struct.hpp\n'}
+[22.205720] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__traits.hpp\n'}
+[22.205855] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/address_book.hpp\n'}
+[22.205983] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/num.hpp\n'}
+[22.206111] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[22.206293] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs\n'}
+[22.206408] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv\n'}
+[22.206520] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail\n'}
+[22.206621] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.206701] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/dds_fastrtps\n'}
+[22.206816] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg\n'}
+[22.206895] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail\n'}
+[22.206971] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.207076] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.207168] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/dds_fastrtps\n'}
+[22.207270] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.207374] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[22.207537] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_fastrtps_cpp.so\n'}
+[22.208497] (customs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[22.208690] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs\n'}
+[22.208787] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv\n'}
+[22.208873] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail\n'}
+[22.208992] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[22.209119] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__type_support.c\n'}
+[22.209206] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg\n'}
+[22.209288] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail\n'}
+[22.209409] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[22.209501] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[22.209586] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__type_support.c\n'}
+[22.209678] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__rosidl_typesupport_introspection_c.h\n'}
+[22.209781] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__type_support.c\n'}
+[22.209899] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__type_support.c\n'}
+[22.210036] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[22.210235] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_introspection_c.so\n'}
+[22.210995] (customs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_introspection_c.so" to ""\n'}
+[22.211228] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_c.so\n'}
+[22.211914] (customs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_c.so" to ""\n'}
+[22.212233] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs\n'}
+[22.212433] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv\n'}
+[22.212638] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail\n'}
+[22.212753] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__type_support.cpp\n'}
+[22.212885] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.213073] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg\n'}
+[22.213257] (customs) StdoutLine: {'line': b'-- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail\n'}
+[22.213360] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__type_support.cpp\n'}
+[22.213445] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.213599] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__type_support.cpp\n'}
+[22.213684] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.213767] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.213876] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__type_support.cpp\n'}
+[22.213989] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_introspection_cpp.so\n'}
+[22.214754] (customs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[22.214927] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_cpp.so\n'}
+[22.215586] (customs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_cpp.so" to ""\n'}
+[22.215736] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/environment/pythonpath.sh\n'}
+[22.215885] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/environment/pythonpath.dsv\n'}
+[22.216065] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs-0.0.0-py3.12.egg-info\n'}
+[22.216270] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[22.216410] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[22.216552] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[22.216691] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[22.216867] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs\n'}
+[22.216989] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/_customs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[22.217165] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/customs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[22.217437] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/srv\n'}
+[22.217551] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/srv/_add_three_ints.py\n'}
+[22.217726] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/srv/_add_three_ints_s.c\n'}
+[22.217876] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/srv/__init__.py\n'}
+[22.218006] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/_customs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[22.218186] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/customs_s__rosidl_typesupport_c.so\n'}
+[22.218461] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/__init__.py\n'}
+[22.218592] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/_customs_s.ep.rosidl_typesupport_c.c\n'}
+[22.218768] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg\n'}
+[22.218866] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg/_address_book_s.c\n'}
+[22.219003] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg/_sphere_s.c\n'}
+[22.219134] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg/_num_s.c\n'}
+[22.219263] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg/_sphere.py\n'}
+[22.219409] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg/__init__.py\n'}
+[22.219552] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg/_address_book.py\n'}
+[22.219692] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg/_num.py\n'}
+[22.219841] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/customs_s__rosidl_typesupport_introspection_c.so\n'}
+[22.226750] (-) TimerEvent: {}
+[22.287416] (customs) StdoutLine: {'line': b"Listing '/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs'...\n"}
+[22.287704] (customs) StdoutLine: {'line': b"Compiling '/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/__init__.py'...\n"}
+[22.287798] (customs) StdoutLine: {'line': b"Listing '/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg'...\n"}
+[22.287877] (customs) StdoutLine: {'line': b"Compiling '/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg/__init__.py'...\n"}
+[22.287961] (customs) StdoutLine: {'line': b"Compiling '/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg/_address_book.py'...\n"}
+[22.288056] (customs) StdoutLine: {'line': b"Compiling '/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg/_num.py'...\n"}
+[22.288144] (customs) StdoutLine: {'line': b"Compiling '/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg/_sphere.py'...\n"}
+[22.288226] (customs) StdoutLine: {'line': b"Listing '/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/srv'...\n"}
+[22.288300] (customs) StdoutLine: {'line': b"Compiling '/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/srv/__init__.py'...\n"}
+[22.288380] (customs) StdoutLine: {'line': b"Compiling '/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/srv/_add_three_ints.py'...\n"}
+[22.301317] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/customs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[22.301890] (customs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/customs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[22.302230] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/customs_s__rosidl_typesupport_introspection_c.so\n'}
+[22.302802] (customs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/customs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[22.303124] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/customs_s__rosidl_typesupport_c.so\n'}
+[22.303672] (customs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/customs_s__rosidl_typesupport_c.so" to ""\n'}
+[22.303813] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_generator_py.so\n'}
+[22.304518] (customs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_generator_py.so" to ""\n'}
+[22.304691] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/msg/Num.idl\n'}
+[22.304836] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/msg/Sphere.idl\n'}
+[22.304974] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/msg/AddressBook.idl\n'}
+[22.305138] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/srv/AddThreeInts.idl\n'}
+[22.305352] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/msg/Num.msg\n'}
+[22.305515] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/msg/Sphere.msg\n'}
+[22.305725] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/msg/AddressBook.msg\n'}
+[22.305880] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/srv/AddThreeInts.srv\n'}
+[22.306154] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/ament_index/resource_index/package_run_dependencies/customs\n'}
+[22.306393] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/ament_index/resource_index/parent_prefix_path/customs\n'}
+[22.306580] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/environment/ament_prefix_path.sh\n'}
+[22.306811] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/environment/ament_prefix_path.dsv\n'}
+[22.307006] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/environment/path.sh\n'}
+[22.307202] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/environment/path.dsv\n'}
+[22.307396] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/local_setup.bash\n'}
+[22.307623] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/local_setup.sh\n'}
+[22.307829] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/local_setup.zsh\n'}
+[22.308019] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/local_setup.dsv\n'}
+[22.308213] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/package.dsv\n'}
+[22.308463] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/ament_index/resource_index/packages/customs\n'}
+[22.308747] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/export_customs__rosidl_generator_cExport.cmake\n'}
+[22.308917] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/export_customs__rosidl_generator_cExport-noconfig.cmake\n'}
+[22.309118] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/export_customs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[22.309422] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/export_customs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[22.309638] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/export_customs__rosidl_generator_cppExport.cmake\n'}
+[22.309853] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/export_customs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[22.310039] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/export_customs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[22.310247] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/customs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[22.310473] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/customs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[22.310718] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/customs__rosidl_typesupport_cExport.cmake\n'}
+[22.310972] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/customs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[22.311192] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/customs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[22.311411] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/customs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[22.311656] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/customs__rosidl_typesupport_cppExport.cmake\n'}
+[22.311894] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/customs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[22.312128] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/export_customs__rosidl_generator_pyExport.cmake\n'}
+[22.312340] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/export_customs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[22.312572] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/rosidl_cmake-extras.cmake\n'}
+[22.312799] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.313017] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[22.313215] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[22.313424] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[22.313645] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[22.313858] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[22.314068] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/customsConfig.cmake\n'}
+[22.314237] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/customsConfig-version.cmake\n'}
+[22.314437] (customs) StdoutLine: {'line': b'-- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/package.xml\n'}
+[22.318074] (customs) CommandEnded: {'returncode': 0}
+[22.326880] (-) TimerEvent: {}
+[22.349407] (customs) JobEnded: {'identifier': 'customs', 'rc': 0}
+[22.350546] (-) EventReactorShutdown: {}

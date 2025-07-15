@@ -1,0 +1,359 @@
+[0.033s] Invoking command in '/home/shaalekh/Desktop/ros2_ws/build/customs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/shaalekh/Desktop/ros2_ws/src/customs -DCMAKE_INSTALL_PREFIX=/home/shaalekh/Desktop/ros2_ws/install/customs
+[0.564s] -- The C compiler identification is GNU 13.3.0
+[0.564s] -- The CXX compiler identification is GNU 13.3.0
+[0.564s] -- Detecting C compiler ABI info
+[0.567s] -- Detecting C compiler ABI info - done
+[0.583s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.583s] -- Detecting C compile features
+[0.584s] -- Detecting C compile features - done
+[0.605s] -- Detecting CXX compiler ABI info
+[0.839s] -- Detecting CXX compiler ABI info - done
+[0.853s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.855s] -- Detecting CXX compile features
+[0.855s] -- Detecting CXX compile features - done
+[0.858s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.222s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.475s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.537s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.562s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.593s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.725s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.745s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.453s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.078s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.668s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.672s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.920s] -- Found PythonExtra: /usr/bin/python3  
+[6.788s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.900s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.955s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.956s] -- Configured cppcheck include dirs: 
+[6.956s] -- Configured cppcheck exclude dirs and/or files: 
+[6.960s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.960s] -- Configured 'flake8' exclude dirs and/or files: 
+[6.966s] -- Added test 'lint_cmake' to check CMake code style
+[6.970s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.992s] -- Added test 'uncrustify' to check C / C++ code style
+[6.992s] -- Configured uncrustify additional arguments: 
+[6.996s] -- Added test 'xmllint' to check XML markup files
+[7.001s] -- Configuring done (7.0s)
+[7.116s] -- Generating done (0.1s)
+[7.154s] -- Build files have been written to: /home/shaalekh/Desktop/ros2_ws/build/customs
+[7.204s] Invoked command in '/home/shaalekh/Desktop/ros2_ws/build/customs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/shaalekh/Desktop/ros2_ws/src/customs -DCMAKE_INSTALL_PREFIX=/home/shaalekh/Desktop/ros2_ws/install/customs
+[7.206s] Invoking command in '/home/shaalekh/Desktop/ros2_ws/build/customs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shaalekh/Desktop/ros2_ws/build/customs -- -j4 -l4
+[7.396s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[7.398s] [  1%] Built target ament_cmake_python_copy_customs
+[7.827s] running egg_info
+[7.830s] creating customs.egg-info
+[7.874s] writing customs.egg-info/PKG-INFO
+[7.874s] writing dependency_links to customs.egg-info/dependency_links.txt
+[7.875s] writing top-level names to customs.egg-info/top_level.txt
+[7.877s] writing manifest file 'customs.egg-info/SOURCES.txt'
+[7.948s] [  1%] Built target customs__rosidl_generator_type_description
+[7.999s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.018s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.037s] reading manifest file 'customs.egg-info/SOURCES.txt'
+[8.037s] writing manifest file 'customs.egg-info/SOURCES.txt'
+[8.217s] [  4%] Built target ament_cmake_python_build_customs_egg
+[9.523s] [  4%] Built target customs__cpp
+[9.591s] [  7%] [32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/msg/detail/sphere__description.c.o[0m
+[9.593s] [  7%] [32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/msg/detail/num__description.c.o[0m
+[9.593s] [  9%] [32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/msg/detail/num__type_support.c.o[0m
+[9.593s] [ 10%] [32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/msg/detail/num__functions.c.o[0m
+[9.783s] [ 12%] [32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/msg/detail/sphere__functions.c.o[0m
+[9.791s] [ 14%] [32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/msg/detail/sphere__type_support.c.o[0m
+[9.809s] [ 15%] [32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/msg/detail/address_book__description.c.o[0m
+[9.870s] [ 17%] [32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/msg/detail/address_book__functions.c.o[0m
+[9.937s] [ 18%] [32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/msg/detail/address_book__type_support.c.o[0m
+[10.009s] [ 20%] [32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/srv/detail/add_three_ints__description.c.o[0m
+[10.083s] [ 21%] [32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/srv/detail/add_three_ints__functions.c.o[0m
+[10.113s] [ 23%] [32mBuilding C object CMakeFiles/customs__rosidl_generator_c.dir/rosidl_generator_c/customs/srv/detail/add_three_ints__type_support.c.o[0m
+[10.328s] [ 25%] [32m[1mLinking C shared library libcustoms__rosidl_generator_c.so[0m
+[10.489s] [ 25%] Built target customs__rosidl_generator_c
+[10.539s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.539s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.540s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.551s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.710s] [ 32%] [32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/customs/msg/num__type_support.cpp.o[0m
+[12.487s] [ 34%] [32mBuilding C object CMakeFiles/customs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/customs/msg/detail/num__type_support.c.o[0m
+[12.638s] [ 35%] [32mBuilding C object CMakeFiles/customs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/customs/msg/detail/sphere__type_support.c.o[0m
+[12.799s] [ 37%] [32mBuilding C object CMakeFiles/customs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/customs/msg/detail/address_book__type_support.c.o[0m
+[12.938s] [ 39%] [32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customs/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[13.040s] [ 40%] [32mBuilding C object CMakeFiles/customs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/customs/srv/detail/add_three_ints__type_support.c.o[0m
+[13.116s] [ 42%] [32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/customs/msg/detail/num__type_support_c.cpp.o[0m
+[13.304s] [ 43%] [32m[1mLinking C shared library libcustoms__rosidl_typesupport_introspection_c.so[0m
+[13.466s] [ 45%] [32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/customs/msg/sphere__type_support.cpp.o[0m
+[13.503s] [ 45%] Built target customs__rosidl_typesupport_introspection_c
+[13.554s] [ 46%] [32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/customs/msg/detail/sphere__type_support_c.cpp.o[0m
+[14.976s] [ 48%] [32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customs/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[15.211s] [ 50%] [32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/customs/msg/address_book__type_support.cpp.o[0m
+[15.531s] [ 51%] [32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/customs/srv/add_three_ints__type_support.cpp.o[0m
+[15.707s] [ 53%] [32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/customs/msg/detail/address_book__type_support_c.cpp.o[0m
+[16.342s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[16.569s] [ 56%] [32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customs/msg/detail/dds_fastrtps/address_book__type_support.cpp.o[0m
+[16.802s] [ 57%] [32m[1mLinking CXX shared library libcustoms__rosidl_typesupport_cpp.so[0m
+[17.032s] [ 57%] Built target customs__rosidl_typesupport_cpp
+[17.075s] [ 59%] [32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customs/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[17.300s] [ 60%] [32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/customs/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[17.414s] [ 62%] [32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_c.dir/rosidl_typesupport_c/customs/msg/num__type_support.cpp.o[0m
+[17.622s] [ 64%] [32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_c.dir/rosidl_typesupport_c/customs/msg/sphere__type_support.cpp.o[0m
+[17.793s] [ 65%] [32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_c.dir/rosidl_typesupport_c/customs/msg/address_book__type_support.cpp.o[0m
+[17.824s] [ 67%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[17.991s] [ 68%] [32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_c.dir/rosidl_typesupport_c/customs/srv/add_three_ints__type_support.cpp.o[0m
+[18.145s] [ 70%] [32m[1mLinking CXX shared library libcustoms__rosidl_typesupport_c.so[0m
+[18.353s] [ 70%] Built target customs__rosidl_typesupport_c
+[18.702s] [ 71%] [32m[1mLinking CXX shared library libcustoms__rosidl_typesupport_fastrtps_cpp.so[0m
+[18.704s] [ 73%] [32m[1mLinking CXX shared library libcustoms__rosidl_typesupport_fastrtps_c.so[0m
+[18.801s] [ 75%] [32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/customs/msg/detail/num__type_support.cpp.o[0m
+[18.819s] [ 76%] [32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/customs/msg/detail/sphere__type_support.cpp.o[0m
+[18.989s] [ 76%] Built target customs__rosidl_typesupport_fastrtps_c
+[19.024s] [ 78%] [32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/customs/msg/detail/address_book__type_support.cpp.o[0m
+[19.052s] [ 78%] Built target customs__rosidl_typesupport_fastrtps_cpp
+[19.103s] [ 79%] [32mBuilding CXX object CMakeFiles/customs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/customs/srv/detail/add_three_ints__type_support.cpp.o[0m
+[20.282s] [ 81%] [32m[1mLinking CXX shared library libcustoms__rosidl_typesupport_introspection_cpp.so[0m
+[20.467s] [ 81%] Built target customs__rosidl_typesupport_introspection_cpp
+[20.507s] [ 81%] Built target customs
+[20.546s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[21.361s] [ 82%] Built target customs__py
+[21.398s] [ 87%] [32mBuilding C object CMakeFiles/customs__rosidl_generator_py.dir/rosidl_generator_py/customs/msg/_num_s.c.o[0m
+[21.401s] [ 89%] [32mBuilding C object CMakeFiles/customs__rosidl_generator_py.dir/rosidl_generator_py/customs/srv/_add_three_ints_s.c.o[0m
+[21.401s] [ 89%] [32mBuilding C object CMakeFiles/customs__rosidl_generator_py.dir/rosidl_generator_py/customs/msg/_address_book_s.c.o[0m
+[21.401s] [ 89%] [32mBuilding C object CMakeFiles/customs__rosidl_generator_py.dir/rosidl_generator_py/customs/msg/_sphere_s.c.o[0m
+[21.705s] [ 90%] [32m[1mLinking C shared library libcustoms__rosidl_generator_py.so[0m
+[21.795s] [ 90%] Built target customs__rosidl_generator_py
+[21.837s] [ 95%] [32mBuilding C object CMakeFiles/customs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/customs/_customs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[21.838s] [ 95%] [32mBuilding C object CMakeFiles/customs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/customs/_customs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[21.838s] [ 95%] [32mBuilding C object CMakeFiles/customs_s__rosidl_typesupport_c.dir/rosidl_generator_py/customs/_customs_s.ep.rosidl_typesupport_c.c.o[0m
+[22.059s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/customs/customs_s__rosidl_typesupport_introspection_c.so[0m
+[22.059s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/customs/customs_s__rosidl_typesupport_c.so[0m
+[22.070s] [100%] [32m[1mLinking C shared module rosidl_generator_py/customs/customs_s__rosidl_typesupport_fastrtps_c.so[0m
+[22.125s] [100%] Built target customs_s__rosidl_typesupport_introspection_c
+[22.126s] [100%] Built target customs_s__rosidl_typesupport_c
+[22.138s] [100%] Built target customs_s__rosidl_typesupport_fastrtps_c
+[22.160s] Invoked command in '/home/shaalekh/Desktop/ros2_ws/build/customs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shaalekh/Desktop/ros2_ws/build/customs -- -j4 -l4
+[22.162s] Invoking command in '/home/shaalekh/Desktop/ros2_ws/build/customs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/shaalekh/Desktop/ros2_ws/build/customs
+[22.178s] -- Install configuration: ""
+[22.179s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/ament_index/resource_index/rosidl_interfaces/customs
+[22.179s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/msg/Num.json
+[22.179s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/msg/Sphere.json
+[22.179s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/msg/AddressBook.json
+[22.180s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/srv/AddThreeInts.json
+[22.180s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs
+[22.180s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv
+[22.180s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/add_three_ints.h
+[22.180s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail
+[22.180s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__description.c
+[22.180s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__functions.c
+[22.181s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__type_support.h
+[22.181s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__struct.h
+[22.181s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__functions.h
+[22.181s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__type_support.c
+[22.181s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg
+[22.181s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/rosidl_generator_c__visibility_control.h
+[22.181s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail
+[22.181s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__struct.h
+[22.182s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__functions.h
+[22.182s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__type_support.c
+[22.182s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__type_support.h
+[22.182s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__functions.h
+[22.182s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__description.c
+[22.182s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__type_support.h
+[22.183s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__functions.c
+[22.183s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__struct.h
+[22.183s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__description.c
+[22.183s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__type_support.h
+[22.183s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__type_support.c
+[22.183s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__struct.h
+[22.183s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__functions.c
+[22.183s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__functions.c
+[22.184s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__functions.h
+[22.184s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__type_support.c
+[22.184s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__description.c
+[22.184s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/num.h
+[22.184s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/address_book.h
+[22.184s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/sphere.h
+[22.185s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/environment/library_path.sh
+[22.185s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/environment/library_path.dsv
+[22.185s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_generator_c.so
+[22.186s] -- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_generator_c.so" to ""
+[22.186s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs
+[22.186s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv
+[22.186s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail
+[22.186s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[22.186s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg
+[22.186s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[22.187s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail
+[22.187s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[22.187s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h
+[22.187s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[22.187s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_fastrtps_c.so
+[22.188s] -- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_fastrtps_c.so" to ""
+[22.188s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs
+[22.188s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv
+[22.188s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail
+[22.188s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__builder.hpp
+[22.188s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__struct.hpp
+[22.188s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__type_support.hpp
+[22.188s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__traits.hpp
+[22.189s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/add_three_ints.hpp
+[22.189s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg
+[22.189s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/sphere.hpp
+[22.189s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail
+[22.189s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__traits.hpp
+[22.189s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__builder.hpp
+[22.189s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__traits.hpp
+[22.189s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__struct.hpp
+[22.189s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__builder.hpp
+[22.190s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__type_support.hpp
+[22.190s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__struct.hpp
+[22.190s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__builder.hpp
+[22.190s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__type_support.hpp
+[22.190s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__type_support.hpp
+[22.190s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__struct.hpp
+[22.190s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__traits.hpp
+[22.190s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/address_book.hpp
+[22.191s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/num.hpp
+[22.191s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/rosidl_generator_cpp__visibility_control.hpp
+[22.191s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs
+[22.191s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv
+[22.191s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail
+[22.191s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[22.191s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/dds_fastrtps
+[22.191s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg
+[22.191s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail
+[22.192s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp
+[22.192s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[22.192s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/dds_fastrtps
+[22.192s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[22.192s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[22.192s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_fastrtps_cpp.so
+[22.193s] -- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_fastrtps_cpp.so" to ""
+[22.193s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs
+[22.193s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv
+[22.193s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail
+[22.194s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[22.194s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__type_support.c
+[22.194s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg
+[22.194s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail
+[22.194s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[22.194s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__rosidl_typesupport_introspection_c.h
+[22.194s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__type_support.c
+[22.194s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__rosidl_typesupport_introspection_c.h
+[22.194s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__type_support.c
+[22.194s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__type_support.c
+[22.195s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[22.195s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_introspection_c.so
+[22.196s] -- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_introspection_c.so" to ""
+[22.196s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_c.so
+[22.197s] -- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_c.so" to ""
+[22.197s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs
+[22.197s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv
+[22.197s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail
+[22.197s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__type_support.cpp
+[22.197s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[22.198s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg
+[22.198s] -- Up-to-date: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail
+[22.198s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__type_support.cpp
+[22.198s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[22.198s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/num__type_support.cpp
+[22.198s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[22.198s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp
+[22.198s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/include/customs/customs/msg/detail/sphere__type_support.cpp
+[22.199s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_introspection_cpp.so
+[22.199s] -- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_introspection_cpp.so" to ""
+[22.200s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_cpp.so
+[22.200s] -- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_typesupport_cpp.so" to ""
+[22.200s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/environment/pythonpath.sh
+[22.200s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/environment/pythonpath.dsv
+[22.201s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs-0.0.0-py3.12.egg-info
+[22.201s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs-0.0.0-py3.12.egg-info/dependency_links.txt
+[22.201s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs-0.0.0-py3.12.egg-info/PKG-INFO
+[22.201s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs-0.0.0-py3.12.egg-info/top_level.txt
+[22.201s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs-0.0.0-py3.12.egg-info/SOURCES.txt
+[22.201s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs
+[22.202s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/_customs_s.ep.rosidl_typesupport_introspection_c.c
+[22.202s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/customs_s__rosidl_typesupport_fastrtps_c.so
+[22.202s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/srv
+[22.202s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/srv/_add_three_ints.py
+[22.202s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/srv/_add_three_ints_s.c
+[22.202s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/srv/__init__.py
+[22.203s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/_customs_s.ep.rosidl_typesupport_fastrtps_c.c
+[22.203s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/customs_s__rosidl_typesupport_c.so
+[22.203s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/__init__.py
+[22.203s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/_customs_s.ep.rosidl_typesupport_c.c
+[22.203s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg
+[22.203s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg/_address_book_s.c
+[22.204s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg/_sphere_s.c
+[22.204s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg/_num_s.c
+[22.204s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg/_sphere.py
+[22.204s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg/__init__.py
+[22.204s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg/_address_book.py
+[22.204s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg/_num.py
+[22.204s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/customs_s__rosidl_typesupport_introspection_c.so
+[22.272s] Listing '/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs'...
+[22.272s] Compiling '/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/__init__.py'...
+[22.272s] Listing '/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg'...
+[22.272s] Compiling '/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg/__init__.py'...
+[22.273s] Compiling '/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg/_address_book.py'...
+[22.273s] Compiling '/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg/_num.py'...
+[22.273s] Compiling '/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/msg/_sphere.py'...
+[22.273s] Listing '/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/srv'...
+[22.273s] Compiling '/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/srv/__init__.py'...
+[22.273s] Compiling '/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/srv/_add_three_ints.py'...
+[22.286s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/customs_s__rosidl_typesupport_fastrtps_c.so
+[22.286s] -- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/customs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[22.287s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/customs_s__rosidl_typesupport_introspection_c.so
+[22.287s] -- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/customs_s__rosidl_typesupport_introspection_c.so" to ""
+[22.288s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/customs_s__rosidl_typesupport_c.so
+[22.288s] -- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/customs/lib/python3.12/site-packages/customs/customs_s__rosidl_typesupport_c.so" to ""
+[22.288s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_generator_py.so
+[22.289s] -- Set non-toolchain portion of runtime path of "/home/shaalekh/Desktop/ros2_ws/install/customs/lib/libcustoms__rosidl_generator_py.so" to ""
+[22.289s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/msg/Num.idl
+[22.289s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/msg/Sphere.idl
+[22.290s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/msg/AddressBook.idl
+[22.290s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/srv/AddThreeInts.idl
+[22.290s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/msg/Num.msg
+[22.290s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/msg/Sphere.msg
+[22.290s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/msg/AddressBook.msg
+[22.290s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/srv/AddThreeInts.srv
+[22.291s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/ament_index/resource_index/package_run_dependencies/customs
+[22.291s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/ament_index/resource_index/parent_prefix_path/customs
+[22.291s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/environment/ament_prefix_path.sh
+[22.291s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/environment/ament_prefix_path.dsv
+[22.292s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/environment/path.sh
+[22.292s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/environment/path.dsv
+[22.292s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/local_setup.bash
+[22.292s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/local_setup.sh
+[22.292s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/local_setup.zsh
+[22.293s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/local_setup.dsv
+[22.293s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/package.dsv
+[22.293s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/ament_index/resource_index/packages/customs
+[22.293s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/export_customs__rosidl_generator_cExport.cmake
+[22.293s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/export_customs__rosidl_generator_cExport-noconfig.cmake
+[22.294s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/export_customs__rosidl_typesupport_fastrtps_cExport.cmake
+[22.294s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/export_customs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[22.294s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/export_customs__rosidl_generator_cppExport.cmake
+[22.294s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/export_customs__rosidl_typesupport_fastrtps_cppExport.cmake
+[22.295s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/export_customs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[22.295s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/customs__rosidl_typesupport_introspection_cExport.cmake
+[22.295s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/customs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[22.295s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/customs__rosidl_typesupport_cExport.cmake
+[22.296s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/customs__rosidl_typesupport_cExport-noconfig.cmake
+[22.296s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/customs__rosidl_typesupport_introspection_cppExport.cmake
+[22.296s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/customs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[22.296s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/customs__rosidl_typesupport_cppExport.cmake
+[22.296s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/customs__rosidl_typesupport_cppExport-noconfig.cmake
+[22.297s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/export_customs__rosidl_generator_pyExport.cmake
+[22.297s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/export_customs__rosidl_generator_pyExport-noconfig.cmake
+[22.297s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/rosidl_cmake-extras.cmake
+[22.297s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.298s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.298s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/ament_cmake_export_libraries-extras.cmake
+[22.298s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/ament_cmake_export_targets-extras.cmake
+[22.298s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[22.298s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[22.299s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/customsConfig.cmake
+[22.299s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/cmake/customsConfig-version.cmake
+[22.299s] -- Installing: /home/shaalekh/Desktop/ros2_ws/install/customs/share/customs/package.xml
+[22.303s] Invoked command in '/home/shaalekh/Desktop/ros2_ws/build/customs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/shaalekh/Desktop/ros2_ws/build/customs
