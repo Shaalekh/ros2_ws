@@ -1,3 +1,5 @@
+import os
+from glob import glob
 from setuptools import find_packages, setup
 
 package_name = 'learning_tf2'
@@ -10,6 +12,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share',package_name, 'launch'), glob('launch/*') )
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -20,7 +23,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'static_turtle_tf2_broadcaster=learning_tf2.static_turtle_tf2_broadcaster:main'
+            'static_turtle_tf2_broadcaster=learning_tf2.static_turtle_tf2_broadcaster:main',
+            'turtle_tf2_broadcaster=learning_tf2.turtle_tf2_broadcaster:main',
+            'turtle_tf2_listener=learning_tf2.turtle_tf2_listener:main',
+            'fixed_frame_tf2_broadcaster=learning_tf2.fixed_frame_tf2_broadcaster:main'
         ],
     },
 )

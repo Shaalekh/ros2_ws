@@ -1,0 +1,30 @@
+[1.411s] Invoking command in '/home/shaalekh/Desktop/ros2_ws/src/learning_tf2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shaalekh/Desktop/ros2_ws/build/learning_tf2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaalekh/Desktop/ros2_ws/install/learning_tf2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_tf2 build --build-base /home/shaalekh/Desktop/ros2_ws/build/learning_tf2/build install --record /home/shaalekh/Desktop/ros2_ws/build/learning_tf2/install.log --single-version-externally-managed install_data
+[1.773s] running egg_info
+[1.798s] writing ../../build/learning_tf2/learning_tf2.egg-info/PKG-INFO
+[1.798s] writing dependency_links to ../../build/learning_tf2/learning_tf2.egg-info/dependency_links.txt
+[1.799s] writing entry points to ../../build/learning_tf2/learning_tf2.egg-info/entry_points.txt
+[1.799s] writing requirements to ../../build/learning_tf2/learning_tf2.egg-info/requires.txt
+[1.800s] writing top-level names to ../../build/learning_tf2/learning_tf2.egg-info/top_level.txt
+[1.855s] reading manifest file '../../build/learning_tf2/learning_tf2.egg-info/SOURCES.txt'
+[1.856s] adding license file 'LICENSE'
+[1.857s] writing manifest file '../../build/learning_tf2/learning_tf2.egg-info/SOURCES.txt'
+[1.857s] running build
+[1.857s] running build_py
+[1.857s] copying learning_tf2/turtle_tf2_broadcaster.py -> /home/shaalekh/Desktop/ros2_ws/build/learning_tf2/build/lib/learning_tf2
+[1.857s] copying learning_tf2/turtle_tf2_listener.py -> /home/shaalekh/Desktop/ros2_ws/build/learning_tf2/build/lib/learning_tf2
+[1.858s] running install
+[1.867s] running install_lib
+[1.892s] copying /home/shaalekh/Desktop/ros2_ws/build/learning_tf2/build/lib/learning_tf2/turtle_tf2_broadcaster.py -> /home/shaalekh/Desktop/ros2_ws/install/learning_tf2/lib/python3.12/site-packages/learning_tf2
+[1.892s] copying /home/shaalekh/Desktop/ros2_ws/build/learning_tf2/build/lib/learning_tf2/turtle_tf2_listener.py -> /home/shaalekh/Desktop/ros2_ws/install/learning_tf2/lib/python3.12/site-packages/learning_tf2
+[1.893s] byte-compiling /home/shaalekh/Desktop/ros2_ws/install/learning_tf2/lib/python3.12/site-packages/learning_tf2/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-312.pyc
+[1.894s] byte-compiling /home/shaalekh/Desktop/ros2_ws/install/learning_tf2/lib/python3.12/site-packages/learning_tf2/turtle_tf2_listener.py to turtle_tf2_listener.cpython-312.pyc
+[1.896s] running install_data
+[1.896s] copying package.xml -> /home/shaalekh/Desktop/ros2_ws/install/learning_tf2/share/learning_tf2
+[1.896s] running install_egg_info
+[1.926s] removing '/home/shaalekh/Desktop/ros2_ws/install/learning_tf2/lib/python3.12/site-packages/learning_tf2-0.0.0-py3.12.egg-info' (and everything under it)
+[1.926s] Copying ../../build/learning_tf2/learning_tf2.egg-info to /home/shaalekh/Desktop/ros2_ws/install/learning_tf2/lib/python3.12/site-packages/learning_tf2-0.0.0-py3.12.egg-info
+[1.929s] running install_scripts
+[2.113s] Installing static_turtle_tf2_broadcaster script to /home/shaalekh/Desktop/ros2_ws/install/learning_tf2/lib/learning_tf2
+[2.114s] Installing turtle_tf2_broadcaster script to /home/shaalekh/Desktop/ros2_ws/install/learning_tf2/lib/learning_tf2
+[2.114s] writing list of installed files to '/home/shaalekh/Desktop/ros2_ws/build/learning_tf2/install.log'
+[2.202s] Invoked command in '/home/shaalekh/Desktop/ros2_ws/src/learning_tf2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shaalekh/Desktop/ros2_ws/build/learning_tf2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaalekh/Desktop/ros2_ws/install/learning_tf2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_tf2 build --build-base /home/shaalekh/Desktop/ros2_ws/build/learning_tf2/build install --record /home/shaalekh/Desktop/ros2_ws/build/learning_tf2/install.log --single-version-externally-managed install_data

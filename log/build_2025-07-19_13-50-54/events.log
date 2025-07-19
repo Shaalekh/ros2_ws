@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000396] (-) JobUnselected: {'identifier': 'custom_action_interfaces'}
+[0.001150] (-) JobUnselected: {'identifier': 'customs'}
+[0.002279] (-) JobUnselected: {'identifier': 'maha_params'}
+[0.003796] (-) JobUnselected: {'identifier': 'my_pack'}
+[0.004101] (-) JobUnselected: {'identifier': 'srvcli'}
+[0.004158] (learning_tf2) JobQueued: {'identifier': 'learning_tf2', 'dependencies': OrderedDict()}
+[0.004196] (learning_tf2) JobStarted: {'identifier': 'learning_tf2'}
+[0.099705] (-) TimerEvent: {}
+[0.200045] (-) TimerEvent: {}
+[0.300399] (-) TimerEvent: {}
+[0.400719] (-) TimerEvent: {}
+[0.501075] (-) TimerEvent: {}
+[0.601428] (-) TimerEvent: {}
+[0.701753] (-) TimerEvent: {}
+[0.802101] (-) TimerEvent: {}
+[0.902422] (-) TimerEvent: {}
+[1.002740] (-) TimerEvent: {}
+[1.103087] (-) TimerEvent: {}
+[1.203422] (-) TimerEvent: {}
+[1.303752] (-) TimerEvent: {}
+[1.404077] (-) TimerEvent: {}
+[1.504472] (-) TimerEvent: {}
+[1.563510] (learning_tf2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/learning_tf2', 'build', '--build-base', '/home/shaalekh/Desktop/ros2_ws/build/learning_tf2/build', 'install', '--record', '/home/shaalekh/Desktop/ros2_ws/build/learning_tf2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/shaalekh/Desktop/ros2_ws/src/learning_tf2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shaalekh', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/shaalekh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2143', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shaalekh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shaalekh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/raspi5-ubuntu:@/tmp/.ICE-unix/2105,unix/raspi5-ubuntu:/tmp/.ICE-unix/2105', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/650cedc8_0fc8_428d_9a3c_1319db045729', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.IZ3L92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shaalekh/Desktop/ros2_ws/build/learning_tf2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shaalekh/Desktop/ros2_ws/build/learning_tf2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shaalekh/Desktop/ros2_ws/install/learning_tf2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.604554] (-) TimerEvent: {}
+[1.704919] (-) TimerEvent: {}
+[1.805255] (-) TimerEvent: {}
+[1.905590] (-) TimerEvent: {}
+[1.940803] (learning_tf2) StdoutLine: {'line': b'running egg_info\n'}
+[1.964776] (learning_tf2) StdoutLine: {'line': b'writing ../../build/learning_tf2/learning_tf2.egg-info/PKG-INFO\n'}
+[2.005655] (-) TimerEvent: {}
+[2.007069] (learning_tf2) StdoutLine: {'line': b'writing dependency_links to ../../build/learning_tf2/learning_tf2.egg-info/dependency_links.txt\n'}
+[2.009500] (learning_tf2) StdoutLine: {'line': b'writing entry points to ../../build/learning_tf2/learning_tf2.egg-info/entry_points.txt\n'}
+[2.010176] (learning_tf2) StdoutLine: {'line': b'writing requirements to ../../build/learning_tf2/learning_tf2.egg-info/requires.txt\n'}
+[2.010488] (learning_tf2) StdoutLine: {'line': b'writing top-level names to ../../build/learning_tf2/learning_tf2.egg-info/top_level.txt\n'}
+[2.063687] (learning_tf2) StdoutLine: {'line': b"reading manifest file '../../build/learning_tf2/learning_tf2.egg-info/SOURCES.txt'\n"}
+[2.064758] (learning_tf2) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.065584] (learning_tf2) StdoutLine: {'line': b"writing manifest file '../../build/learning_tf2/learning_tf2.egg-info/SOURCES.txt'\n"}
+[2.065807] (learning_tf2) StdoutLine: {'line': b'running build\n'}
+[2.065936] (learning_tf2) StdoutLine: {'line': b'running build_py\n'}
+[2.066400] (learning_tf2) StdoutLine: {'line': b'running install\n'}
+[2.076306] (learning_tf2) StdoutLine: {'line': b'running install_lib\n'}
+[2.102015] (learning_tf2) StdoutLine: {'line': b'running install_data\n'}
+[2.102228] (learning_tf2) StdoutLine: {'line': b'copying launch/turtle_tf2_demo.launch.py -> /home/shaalekh/Desktop/ros2_ws/install/learning_tf2/share/learning_tf2/launch\n'}
+[2.102520] (learning_tf2) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.105726] (-) TimerEvent: {}
+[2.133294] (learning_tf2) StdoutLine: {'line': b"removing '/home/shaalekh/Desktop/ros2_ws/install/learning_tf2/lib/python3.12/site-packages/learning_tf2-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.133807] (learning_tf2) StdoutLine: {'line': b'Copying ../../build/learning_tf2/learning_tf2.egg-info to /home/shaalekh/Desktop/ros2_ws/install/learning_tf2/lib/python3.12/site-packages/learning_tf2-0.0.0-py3.12.egg-info\n'}
+[2.135811] (learning_tf2) StdoutLine: {'line': b'running install_scripts\n'}
+[2.205828] (-) TimerEvent: {}
+[2.306161] (-) TimerEvent: {}
+[2.321137] (learning_tf2) StdoutLine: {'line': b'Installing static_turtle_tf2_broadcaster script to /home/shaalekh/Desktop/ros2_ws/install/learning_tf2/lib/learning_tf2\n'}
+[2.321485] (learning_tf2) StdoutLine: {'line': b'Installing turtle_tf2_broadcaster script to /home/shaalekh/Desktop/ros2_ws/install/learning_tf2/lib/learning_tf2\n'}
+[2.322086] (learning_tf2) StdoutLine: {'line': b'Installing turtle_tf2_listener script to /home/shaalekh/Desktop/ros2_ws/install/learning_tf2/lib/learning_tf2\n'}
+[2.322593] (learning_tf2) StdoutLine: {'line': b"writing list of installed files to '/home/shaalekh/Desktop/ros2_ws/build/learning_tf2/install.log'\n"}
+[2.406277] (-) TimerEvent: {}
+[2.416352] (learning_tf2) CommandEnded: {'returncode': 0}
+[2.436816] (learning_tf2) JobEnded: {'identifier': 'learning_tf2', 'rc': 0}
+[2.438131] (-) EventReactorShutdown: {}
